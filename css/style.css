@@ -141,7 +141,7 @@ p {
   padding: 150px 0;
   border-top: none;
   border-bottom: none;
-  background: url(../img/bg-section-b.png) top right; }
+  background: url(../img/bg-section-b.png) no-repeat top right; }
 
 .logo-netbi {
   width: 70%;
