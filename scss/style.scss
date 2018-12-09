@@ -6,6 +6,8 @@
 //Variabile
 $ligth-blue: rgba(25,160,255, 1);
 $dark-blue: rgba(45, 21, 130, 1);
+$btn-blue-ligth: rgba(89,194,255, 1);
+$btn-blue-dark: rgba(18, 112, 227, 1);
 body,
 html {
     width: 100%;
@@ -22,6 +24,25 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
+p{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.btn-wt{
+    padding: 10px 16px;
+    font-size: 32px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, $btn-blue-dark , $btn-blue-ligth );
+    margin-top: 50px;
+    border: none;
+    width: 50%;
+}
+
 /*Nav Bar*/
 .topnav {
     font-size: 14px; 
@@ -44,7 +65,7 @@ h6 {
 }
 
 .navbar-default {
-	background: linear-gradient(to right, $ligth-blue , $dark-blue );
+	background: linear-gradient(to right,  $ligth-blue, $dark-blue);
 	
 	.navbar-nav>li>a {
     	color: #fff;
@@ -125,18 +146,39 @@ h6 {
 }
 
 .nav-item{
-	text-align: center;
+	text-align:center;
 }
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: none;;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.homebanner{
+	width: 100%;
+	
+}
 
 /*FINE SEZIONE A*/
 /*SEZIONE B*/
 .content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    padding: 150px 0;
+    border-top: none;
+    border-bottom: none;
+    background: url(../img/bg-section-b.png) top right;
 }
 
+.logo-netbi{
+	width: 90%;
+}
+/*FINE SEZIONE B*/
 .section-heading {
     margin-bottom: 30px;
 }
