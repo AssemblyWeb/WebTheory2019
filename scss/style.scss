@@ -44,10 +44,6 @@ p{
 }
 
 /*Nav Bar*/
-.topnav {
-    font-size: 14px; 
-    
-}
 
 .buttonav {
 	border-color: 1px solid white;
@@ -55,6 +51,7 @@ p{
 
 .logo{
 	padding-top: 0px;
+	width: auto;
 }
 
 .navbar {
@@ -75,6 +72,14 @@ p{
     	padding-top: 36px
 	}
 }
+
+@media(max-width:767px) {
+	.logo{
+	width: 75%;
+	float: left;
+	}
+
+}
 /*END NAV BAR*/
 /*------------------------------------------------------------------*/
 /*INTRO*/
@@ -94,37 +99,27 @@ p{
     padding-top: 15%;
     padding-bottom: 20%;
     padding-left: 60%;
-}
 
-
-.intro-message > p {
+	p {
 	font-size: 60px;
     font-weight: 400;
     text-align: left;
+    }
 }
 
 @media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
+   .intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    padding-left: 0%;
 
-    .intro-message > h1 {
-        font-size: 3em;
+	p {
+	font-size: 60px;
+    font-weight: 400;
+    text-align: left;
     }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
+	}
 }
 
 /*END INTRO*/
@@ -176,7 +171,8 @@ p{
 }
 
 .logo-netbi{
-	width: 90%;
+	width: 70%;
+	padding-bottom: 30px;
 }
 /*FINE SEZIONE B*/
 .section-heading {
@@ -194,16 +190,16 @@ p{
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
-}
-
-.banner h2 {
+	
+	h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
-}
+	}
 
-.banner ul {
+	ul {
     margin-bottom: 0;
+	}
 }
 
 .banner-social-buttons {
