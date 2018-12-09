@@ -8,6 +8,9 @@ $ligth-blue: rgba(25,160,255, 1);
 $dark-blue: rgba(45, 21, 130, 1);
 $btn-blue-ligth: rgba(89,194,255, 1);
 $btn-blue-dark: rgba(18, 112, 227, 1);
+$footer-ligth: #333333;
+$footer-dark:#666666;
+
 body,
 html {
     width: 100%;
@@ -23,6 +26,7 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    text-shadow: none;
 }
 
 p{
@@ -38,11 +42,14 @@ p{
     text-transform: uppercase;
     color: white;
     background: linear-gradient(to right, $btn-blue-dark , $btn-blue-ligth );
-    margin-top: 50px;
+    margin-top: 0px;
     border: none;
     width: 50%;
 }
 
+.nomargin {
+	margin-top: 0 !important;
+}
 /*Nav Bar*/
 
 .buttonav {
@@ -62,7 +69,7 @@ p{
 }
 
 .navbar-default {
-	background: linear-gradient(to right,  $ligth-blue, $dark-blue);
+	background: linear-gradient(to right, $ligth-blue, $dark-blue);
 	
 	.navbar-nav>li>a {
     	color: #fff;
@@ -77,6 +84,7 @@ p{
 	.logo{
 	width: 70%;
 	float: left;
+	padding-left: 20px;
 	}
 
 }
@@ -174,6 +182,11 @@ p{
 	width: 70%;
 	padding-bottom: 30px;
 }
+
+.testo{
+	margin-bottom: 10px;
+}
+
 /*FINE SEZIONE B*/
 .section-heading {
     margin-bottom: 30px;
@@ -188,18 +201,27 @@ p{
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
+	background: linear-gradient(to left, $ligth-blue, $dark-blue);
 	
 	h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
+    text-shadow: none;
+    font-size: 50px;
+    
+	}
+	
+	h3 {
+	font-size: 40px;
 	}
 
 	ul {
     margin-bottom: 0;
 	}
+}
+
+.iconcontact{
+	width: 50px;
+	margin-top: 20px;
 }
 
 .banner-social-buttons {
@@ -234,9 +256,21 @@ p{
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+	
+	h3{
+		font-size: 23px;
+		color: white;
+		padding-left: 30px;
+	}
 }
+
+.bgfoot{
+	background: linear-gradient(to left, $footer-dark, $footer-ligth);
+	}
 
 p.copyright {
     margin: 15px 0 0;
+    font-size: 14px;
+    color: white;
+    text-align: center;
 }

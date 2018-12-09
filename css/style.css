@@ -16,7 +16,8 @@ h4,
 h5,
 h6 {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  text-shadow: none; }
 
 p {
   font-size: 30px;
@@ -33,9 +34,12 @@ p {
   background: -webkit-linear-gradient(left, #1270e3, #59c2ff);
   background: -o-linear-gradient(left, #1270e3, #59c2ff);
   background: linear-gradient(to right, #1270e3, #59c2ff);
-  margin-top: 50px;
+  margin-top: 0px;
   border: none;
   width: 50%; }
+
+.nomargin {
+  margin-top: 0 !important; }
 
 /*Nav Bar*/
 .buttonav {
@@ -66,7 +70,8 @@ p {
 @media (max-width: 767px) {
   .logo {
     width: 70%;
-    float: left; } }
+    float: left;
+    padding-left: 20px; } }
 
 /*END NAV BAR*/
 /*------------------------------------------------------------------*/
@@ -142,6 +147,9 @@ p {
   width: 70%;
   padding-bottom: 30px; }
 
+.testo {
+  margin-bottom: 10px; }
+
 /*FINE SEZIONE B*/
 .section-heading {
   margin-bottom: 30px; }
@@ -154,14 +162,22 @@ p {
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
-  background-size: cover; }
+  background: -webkit-gradient(linear, right top, left top, from(#19a0ff), to(#2d1582));
+  background: -webkit-linear-gradient(right, #19a0ff, #2d1582);
+  background: -o-linear-gradient(right, #19a0ff, #2d1582);
+  background: linear-gradient(to left, #19a0ff, #2d1582); }
   .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 3em; }
+    text-shadow: none;
+    font-size: 50px; }
+  .banner h3 {
+    font-size: 40px; }
   .banner ul {
     margin-bottom: 0; }
+
+.iconcontact {
+  width: 50px;
+  margin-top: 20px; }
 
 .banner-social-buttons {
   float: right;
@@ -185,8 +201,20 @@ p {
     margin-bottom: 0; } }
 
 footer {
-  padding: 50px 0;
-  background-color: #f8f8f8; }
+  padding: 50px 0; }
+  footer h3 {
+    font-size: 23px;
+    color: white;
+    padding-left: 30px; }
+
+.bgfoot {
+  background: -webkit-gradient(linear, right top, left top, from(#666666), to(#333333));
+  background: -webkit-linear-gradient(right, #666666, #333333);
+  background: -o-linear-gradient(right, #666666, #333333);
+  background: linear-gradient(to left, #666666, #333333); }
 
 p.copyright {
-  margin: 15px 0 0; }
+  margin: 15px 0 0;
+  font-size: 14px;
+  color: white;
+  text-align: center; }
