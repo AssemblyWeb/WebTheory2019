@@ -3,7 +3,7 @@
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-	              <a  href="#">
+	              <a  href="/index.php">
 		            <img class="logo" src="img/logo_web_theory_2019.png">
 		        </a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -17,10 +17,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="/index.php">Home</a>
                     </li>
                     <li>
-                        <a href="Chi%20sono.html">Chi sono</a>
+                        <a href="/chisono.php">Chi sono</a>
                     </li>
                      <li>
                         <a href="#services">Servizi</a>
@@ -34,3 +34,5 @@
         </div>
         <!-- /.container -->
     </nav>
+    
+    <body>
