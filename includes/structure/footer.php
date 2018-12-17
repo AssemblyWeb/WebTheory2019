@@ -26,7 +26,7 @@
 							</li>
 							
 							<li>
-                            	<a href="#contact"><h3>Contatti</h3></a>
+                            	<a href="/contatti.php"><h3>Contatti</h3></a>
 							</li>
                     	</ul>
                 </div>

@@ -26,7 +26,7 @@
                         <a href="#services">Servizi</a>
                     </li>
                     <li>
-                        <a class="buttonav" href="#contact">Contattami</a>
+                        <a class="buttonav" href="/contatti.php">Contattami</a>
                     </li>
                 </ul>
             </div>
