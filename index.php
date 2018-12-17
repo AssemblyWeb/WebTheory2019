@@ -11,11 +11,9 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
                 <div class="col-lg-12 col-sm-12">
                     <div class="intro-message">
                         <p>UN MONDO <br>DI SERVIZI<br>PER TE</p>
-                        
                       </div>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
 

@@ -27,6 +27,7 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     text-shadow: none;
+    color: #4A4A4A;
 }
 
 p{
@@ -293,3 +294,18 @@ p.copyright {
 .profilephoto{
 	width: 100%;
 }
+/* ./Footer */
+/*Contatti*/
+.midlebox{
+	border-left: 1px solid #6E6E6E;
+	border-right: 1px solid #6E6E6E;
+}
+
+.textalign {
+	vertical-align: -webkit-baseline-middle;
+	vertical-align: -moz-middle-with-baseline;
+	}
+.rowpadding{
+	padding-bottom: 50px !important;
+}
+/* ./Contatti */
