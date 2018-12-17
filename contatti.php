@@ -1,7 +1,7 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+include($_SERVER['DOCUMENT_ROOT']."/includes/structures/mailer.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/mailer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
  <div class="container">
             <div class="row">
@@ -86,53 +86,13 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/mailer.php");
                 </div>
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 col-sm-12">
-                <?php
-                        	if (isset($validazione) and ($validazione == FALSE)) {
-                            	echo ' <div class="alert alert-danger fade in">
-								<a href="#" class="close" data-dismiss="alert">&times;</a>'.'<strong>ERRORE!</strong><br>'.' '. $validazione_errore . '</div>';
-                        	}
-                        ?>
-
-                        <?php
-                        if(isset($_GET['ok'])) 
-                        { 
-                        ?>
-                            <div class="alert alert-success fade in"> 
-                                <h3>Messaggio inviato con successo!</h3>
-                            </div>
-
-                        <br /><br /><br /><br /><br /><br />
-
-						<?php }
-							if(!isset($_GET['ok'])) 
-							{ 
-						?>
-
-				
-				<form  class="popup-form"  method="post" action="index.php?send=1">
-					<h4>Nome</h4>
-					<input type="text" class="form-control form-white" placeholder="Nome e Cognome" name="nome" value="<?php if (isset($nome)) echo $nome;?>">
-					<h4>Email</h4>
-					<input type="text" class="form-control form-white" placeholder="Indirizzo E-mail" name="email" value="<?php if (isset($email)) echo $email;?>">
-					<h4>Telefono</h4>
-					<input type="text" class="form-control form-white"  placeholder="Telefono" name="telefono" required="required" value="<?php if (isset($telefono)) echo $telefono;?>">
-						<h4>Oggetto</h4>
-					<input type="text" class="form-control form-white" placeholder="Oggetto" name="oggetto" value="<?php if (isset($oggetto)) echo $oggetto;?>">
-					<div class="checkbox-holder text-left">
-						<h4>Come posso aiutarti?</h4>
-						 <textarea class="form-control" placeholder="testo" rows="5" id="comment" name="messaggio" value="<?php if (isset($messaggio)) echo $messaggio;?>"></textarea>
-						
-						<div class="checkbox">
-							 <input type="checkbox" value="true" id="squaredOne" name="privacy" required="required"/>
-
-							<label for="squaredOne"><span>Acconsento a <strong>Termini &amp; Condizioni</strong></span></label>
-						</div>
-					</div>
-					<button type="submit" class="btn btn-submit">Invia</button>
-				</form>
-				 <?php } ?>
+					 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+include($_SERVER['DOCUMENT_ROOT']."/includes/structures/form.php");
+/* ################################################ INCLUDE - FINE ################################################# */ ?>
                 </div>
-                <div class="col-lg-3"></div>
+                <div class="col-lg-3 "></div>
+                <div class="row rowpadding"></div>
+                
             </div>
 	 </div>
 
