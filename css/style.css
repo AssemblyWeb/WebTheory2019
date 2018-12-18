@@ -45,6 +45,9 @@ p {
   border: none;
   width: 50%; }
 
+.whitecta {
+  color: white !important; }
+
 .nomargin {
   margin-top: 0 !important; }
 
@@ -89,7 +92,7 @@ p {
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro.png) no-repeat center center;
+  background: url(../img/intro-message-bg.png) no-repeat center center;
   background-size: cover; }
 
 .intro-message {

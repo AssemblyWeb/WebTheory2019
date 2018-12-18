@@ -1,6 +1,6 @@
 <?php
-include_once('includes/mailer/class.phpmailer.php');
-include_once('includes/mailer/validazione.php');
+include_once('/includes/mailer/class.phpmailer.php');
+include_once('/includes/mailer/validazione.php');
 
 if(isset($_GET['send']) and ($_GET['send']=='1')) {
 
