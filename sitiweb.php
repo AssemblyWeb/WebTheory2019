@@ -19,7 +19,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		 						<h2>ASA</h2>
 		 					</span>
 		 				</span>
-		 				<img class="img-fluid" src="img/homeASA.png" alt="">
+		 				<img class="img-fluid" src="img/asa.jpg" alt="">
             		</a>
           		</div>
           		<!--seconda slide -->
