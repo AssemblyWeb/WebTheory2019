@@ -105,17 +105,6 @@ p {
     font-weight: 400;
     text-align: left; }
 
-@media (max-width: 767px) {
-  .intro-message {
-    position: relative;
-    padding-top: 15%;
-    padding-bottom: 20%;
-    padding-left: 0%; }
-    .intro-message p {
-      font-size: 60px;
-      font-weight: 400;
-      text-align: left; } }
-
 /*END INTRO*/
 /*SEZIONE A*/
 .content-section-a {
@@ -142,6 +131,9 @@ p {
 .nav-tabs {
   border-bottom: none; }
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #ffffff; }
+
 .homebanner {
   width: 100%; }
 
@@ -154,8 +146,13 @@ p {
   background: url(../img/bg-section-b.png) no-repeat top right; }
 
 .logo-netbi {
-  width: 70%;
+  width: 80%;
   padding-bottom: 30px; }
+
+@media (max-width: 767px) {
+  .logo-netbi {
+    width: 100%;
+    padding-bottom: 30px; } }
 
 .testo {
   margin-bottom: 10px; }

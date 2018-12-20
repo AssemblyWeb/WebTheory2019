@@ -7,7 +7,7 @@
             	<div class="row">
                	 
 	               	 <div class="col-lg-4">
-		               	 <img src="img/logo_web_theory_2019.png">
+		               	 <img class="logo-netbi" src="img/logo_web_theory_2019.png">
 	               	 </div>
 	               	 <div class="col-lg-8">
 				   	 	<ul class="list-inline">
@@ -42,7 +42,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 
 
 </html>

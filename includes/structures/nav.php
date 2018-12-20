@@ -22,9 +22,20 @@
                     <li>
                         <a href="/chisono.php">Chi sono</a>
                     </li>
-                     <li>
-                        <a href="#services">Servizi</a>
-                    </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servizi<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="/sitiweb.php">Siti Web</a>
+								</li>
+								<li>
+									<a href="/assistenza.php">Assistenza</a>
+								</li>
+								<li>
+									<a href="/consulenza.php">Consulenza</a>
+								</li>
+	  						</ul>
+	  				</li>
                     <li>
                         <a class="buttonav" href="/contatti.php">Contattami</a>
                     </li>

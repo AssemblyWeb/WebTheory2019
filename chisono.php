@@ -42,7 +42,7 @@ Fidelizzazione e soddisfazione del cliente sono diventate da quel momento la fil
 
 	            
                 <div class="col-lg-6 col-sm-12">
-	                <img src="/img/logo%20netbi@2x.png"> 
+	                <img class="logo-netbi" src="/img/logo%20netbi@2x.png"> 
 
                 </div>
                 <!-- /.immagine foto chi sono -->
