@@ -37,7 +37,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
                 
-					<div >
+					<div class="container mt-3">
 						<!-- Nav tabs -->
 						<ul class="nav nav-tabs">
 							<li class="nav-item col-lg-4 col-sm-4">
@@ -60,7 +60,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 						  			<div class="col-lg-6">
 						  				<h3 class="nomargin">Siti Web</h3>
 						  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						  				<a href="/sitiweb.php"><div class="btn btn-wt">Scopri</div>
+						  				<a href="sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
 					  				</div>
 					  		</div>
 							<div id="menu1" class="container tab-pane fade"><br>
