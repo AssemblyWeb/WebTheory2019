@@ -114,6 +114,12 @@ color: white !important;
     border: none;
     width: 100%;
 	}
+	
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ffffff;
+    margin: 5px;
+}
 }
 /*END NAV BAR*/
 /*------------------------------------------------------------------*/
@@ -206,16 +212,17 @@ color: white !important;
 	width: 33%;
     padding: 0 !important;
 }
-.nav>li
+.nav{
+	li{
+	}
 	h3{
 		font-size: 19px;
 	}
-	
 	a{
 	padding: 0 !important;
 	position: relative;
     display: inline;
-    
+    }
     img{
 	    width: auto;
 	    height: 50px;

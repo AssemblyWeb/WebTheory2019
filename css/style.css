@@ -97,7 +97,10 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;
-    width: 100%; } }
+    width: 100%; }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+    margin: 5px; } }
 
 /*END NAV BAR*/
 /*------------------------------------------------------------------*/
@@ -169,16 +172,15 @@ p {
     text-align: center;
     width: 33%;
     padding: 0 !important; }
-  .nav > li
-h3 {
+  .nav h3 {
     font-size: 19px; }
-  a {
+  .nav a {
     padding: 0 !important;
     position: relative;
     display: inline; }
-    a img {
-      width: auto;
-      height: 50px; } }
+  .nav img {
+    width: auto;
+    height: 50px; } }
 
 /*FINE SEZIONE A*/
 /*SEZIONE B*/
