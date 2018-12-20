@@ -16,10 +16,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		 			<a class="portfolio-item" href="#">
 		 				<span class="caption">
 		 					<span class="caption-content">
-		 						<h2>Asa</h2>
+		 						<h2>ASA</h2>
 		 					</span>
 		 				</span>
-		 				<img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+		 				<img class="img-fluid" src="img/homeASA.png" alt="">
             		</a>
           		</div>
           		<!--seconda slide -->
@@ -27,10 +27,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		  			<a class="portfolio-item" href="#">
 		  				<span class="caption">
 		  					<span class="caption-content">
-		  						<h2>Bocchetto Sessera</h2>
+		  						<h2>Oltreilgiardino</h2>
                             </span>
 						</span>
-						<img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+						<img class="img-fluid" src="img/oltreilgiardino.jpg" alt="">
             		</a>
           		</div>
           		<!--terza slide -->
@@ -38,10 +38,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		  			<a class="portfolio-item" href="#">
 		  				<span class="caption">
 		  				<span class="caption-content">
-		  					<h2>Presepe gigante di Marchetto</h2>
+		  					<h2>Procom</h2>
                         </span>
 						</span>
-						<img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+						<img class="img-fluid" src="img/procom.jpg" alt="">
             		</a>
           		</div>
 		 	</div>
@@ -52,10 +52,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		 			<a class="portfolio-item" href="#">
 		 				<span class="caption">
 		 					<span class="caption-content">
-		 						<h2>Asa</h2>
+		 						<h2>M V M</h2>
 		 					</span>
 		 				</span>
-		 				<img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+		 				<img class="img-fluid" src="img/mvm.jpg" alt="">
             		</a>
           		</div>
           		<!--quinta slide -->
@@ -63,10 +63,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		  			<a class="portfolio-item" href="#">
 		  				<span class="caption">
 		  					<span class="caption-content">
-		  						<h2>Bocchetto Sessera</h2>
+		  						<h2>Tantintenti</h2>
                             </span>
 						</span>
-						<img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+						<img class="img-fluid" src="img/tantintenti.jpg" alt="">
             		</a>
           		</div>
           		<!--sesta slide -->
@@ -74,10 +74,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		  			<a class="portfolio-item" href="#">
 		  				<span class="caption">
 		  				<span class="caption-content">
-		  					<h2>Presepe gigante di Marchetto</h2>
+		  					<h2>Watch your watch</h2>
                         </span>
 						</span>
-						<img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+						<img class="img-fluid" src="img/wyw.jpg" alt="">
             		</a>
           		</div>
 		 	</div>
@@ -88,10 +88,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		 			<a class="portfolio-item" href="#">
 		 				<span class="caption">
 		 					<span class="caption-content">
-		 						<h2>Asa</h2>
+		 						<h2>Alpe Moncerchio</h2>
 		 					</span>
 		 				</span>
-		 				<img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+		 				<img class="img-fluid" src="img/alpemoncerchio.jpg" alt="">
             		</a>
           		</div>
           		<!--ottava slide -->
@@ -102,7 +102,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		  						<h2>Bocchetto Sessera</h2>
                             </span>
 						</span>
-						<img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+						<img class="img-fluid" src="img/bocchetto-sessera.jpg" alt="">
             		</a>
           		</div>
           		<!--nona slide -->
@@ -110,14 +110,49 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		  			<a class="portfolio-item" href="#">
 		  				<span class="caption">
 		  				<span class="caption-content">
-		  					<h2>Presepe gigante di Marchetto</h2>
+		  					<h2>Presepe gigante</h2>
                         </span>
 						</span>
-						<img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+						<img class="img-fluid" src="img/presepegigantedimosso.jpg" alt="">
             		</a>
           		</div>
 		 	</div>
-		 	
+		 	<!--quarta riga -->
+		 	<div class="row rowpadding">
+			 	<!--decima slide -->
+		 		<div class="col-lg-4">
+		 			<a class="portfolio-item" href="#">
+		 				<span class="caption">
+		 					<span class="caption-content">
+		 						<h2>Fratin</h2>
+		 					</span>
+		 				</span>
+		 				<img class="img-fluid" src="img/fratin.jpg" alt="">
+            		</a>
+          		</div>
+          		<!--undicesima slide -->
+		  		<div class="col-lg-4">
+		  			<a class="portfolio-item" href="#">
+		  				<span class="caption">
+		  					<span class="caption-content">
+		  						<h2>Team Volley</h2>
+                            </span>
+						</span>
+						<img class="img-fluid" src="img/teamvolley.jpg" alt="">
+            		</a>
+          		</div>
+          		<!--dodicesima slide -->
+		  		<div class="col-lg-4">
+		  			<a class="portfolio-item" href="#">
+		  				<span class="caption">
+		  				<span class="caption-content">
+		  					<h2>La Malpenga</h2>
+                        </span>
+						</span>
+						<img class="img-fluid" src="img/lamalpenga.jpg" alt="">
+            		</a>
+          		</div>
+		 	</div>
 		</div>
  </section>
 

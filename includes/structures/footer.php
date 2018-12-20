@@ -7,7 +7,7 @@
             	<div class="row">
                	 
 	               	 <div class="col-lg-4">
-		               	 <img class="logo-netbi" src="img/logo_web_theory_2019.png">
+		               	 <img class="logo-netbi" src="img/logoWebTheory.svg">
 	               	 </div>
 	               	 <div class="col-lg-8">
 				   	 	<ul class="list-inline">

@@ -37,17 +37,17 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
                 
-					<div class="container mt-3">
+					<div >
 						<!-- Nav tabs -->
 						<ul class="nav nav-tabs">
 							<li class="nav-item col-lg-4 col-sm-4">
-								<a class="nav-link active " data-toggle="tab" href="#home"><img src="img/site%20icon.png"><h3>Siti Web</h3></a>
+								<a class="nav-link active " data-toggle="tab" href="#home"><img src="img/sitiweb%20icon.svg"><h3>Siti Web</h3></a>
 							</li>
 							<li class="nav-item col-lg-4 col-sm-4">
-							<a class="nav-link" data-toggle="tab" href="#menu1"><img src="img/repair.png"><h3>Assistenza</h3></a>
+							<a class="nav-link" data-toggle="tab" href="#menu1"><img src="img/repair%20icon.svg"><h3>Assistenza</h3></a>
 							</li>
 							<li class="nav-item col-lg-4 col-sm-4">
-								<a class="nav-link" data-toggle="tab" href="#menu2"><img src="img/consulenza.png"><h3>Consulenza</h3></a>
+								<a class="nav-link" data-toggle="tab" href="#menu2"><img src="img/consulenza%20icon.svg"><h3>Consulenza</h3></a>
 								</li>
 				  		</ul>
 				
@@ -60,7 +60,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 						  			<div class="col-lg-6">
 						  				<h3 class="nomargin">Siti Web</h3>
 						  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						  				<div class="btn btn-wt">Scopri</div>
+						  				<a href="/sitiweb.php"><div class="btn btn-wt">Scopri</div>
 					  				</div>
 					  		</div>
 							<div id="menu1" class="container tab-pane fade"><br>
