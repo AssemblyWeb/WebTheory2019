@@ -256,6 +256,34 @@ color: white !important;
 
 /*FINE SEZIONE B*/
 
+/*SEZIONE C*/
+.content-section-c {
+    padding: 150px 0;
+    border-top: none;
+    border-bottom: none;
+    background: url(../img/bg-section-c.svg) no-repeat top right;
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media(max-width:767px) {
+   .logo-netbi{
+	width: 100%;
+	padding-bottom: 30px;
+}
+}
+
+.testo{
+	margin-bottom: 10px;
+}
+
+/*FINE SEZIONE C*/
+
 .section-heading {
     margin-bottom: 30px;
 }
