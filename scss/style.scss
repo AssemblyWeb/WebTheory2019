@@ -3,14 +3,8 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-//Variabile
-$ligth-blue: rgba(25,160,255, 1);
-$dark-blue: rgba(45, 21, 130, 1);
-$btn-blue-ligth: rgba(89,194,255, 1);
-$btn-blue-dark: rgba(18, 112, 227, 1);
-$footer-ligth: #333333;
-$footer-dark:#666666;
-
+ @import "variabiles";
+ 
 body,
 html {
     width: 100%;
@@ -44,9 +38,10 @@ p{
 }
 
 .btn-wt{
-    padding: 10px 16px;
-    font-size: 32px;
+    padding: 10px 30px;
+    font-size: 20px;
     line-height: 1.3333333;
+    letter-spacing: 3px;
     border-radius: 6px;
     text-transform: uppercase;
     color: white;
@@ -83,7 +78,7 @@ color: white !important;
 }
 
 .navbar-default {
-	background: linear-gradient(to right, $ligth-blue, $dark-blue);
+	background: linear-gradient(to right, $nav-ligth-blue, $nav-dark-blue);
 	
 	.navbar-nav>li>a {
     	color: #fff;
@@ -102,9 +97,10 @@ color: white !important;
 	}
 	
 	.btn-wt{
-    padding: 10px 16px;
-    font-size: 32px;
+    padding: 10px 30px;
+    font-size: 20px;
     line-height: 1.3333333;
+    letter-spacing: 2px;
     border-radius: 6px;
     text-transform: uppercase;
     color: white;
@@ -112,7 +108,7 @@ color: white !important;
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;
-    width: 100%;
+    width: 50%;
 	}
 	
 
@@ -185,18 +181,29 @@ color: white !important;
 	text-align:center;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #555;
-    cursor: default;
-    background-color: #fff;
-    border: none;;
-    border-bottom-color: transparent;
-}
-
-.nav-tabs {
-    border-bottom: none;
-}
-
+.nav-tabs{
+	border-bottom: none;
+	li.active{
+		border-bottom: 1px solid #666666;
+		color: $ligth-blue !important;
+			a{
+		    border: none;
+		    
+				&:focus{
+					border: none;
+					h3{
+						color: $ligth-blue !important;
+					}
+				}
+				&:hover {
+					cursor: default;
+					background-color: #fff;
+					border: none;
+				}
+			}
+	}
+	
+} 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     background-color: #ffffff;
 }

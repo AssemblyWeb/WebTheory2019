@@ -6,9 +6,12 @@
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
   margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  -webkit-transition: ease all 1s;
+  -o-transition: ease all 1s;
+  transition: ease all 1s;
+  border-radius: 3px; }
   .portfolio-item .caption {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -48,5 +51,9 @@
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); }
       .portfolio-item:hover .caption {
+        background: -webkit-gradient(linear, left top, right top, from(rgba(25, 160, 255, 0.3)), to(rgba(45, 21, 130, 0.5)));
+        background: -webkit-linear-gradient(left, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5));
+        background: -o-linear-gradient(left, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5));
+        background: linear-gradient(to right, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5));
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); } }

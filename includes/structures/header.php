@@ -5,9 +5,11 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Professionista a Biella specializzato nella realizzazione di Siti Web, E-commerce, consulenza informatica, networking e riparazione pc smartphone e tablet">
     <meta name="author" content="Erik Alessandro Martinez">
+    
+   
 
     <title>Web Theory un mondo di servizi informatici per te</title>
 

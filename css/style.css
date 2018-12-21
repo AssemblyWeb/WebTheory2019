@@ -31,9 +31,10 @@ p {
   color: #DC453D; }
 
 .btn-wt {
-  padding: 10px 16px;
-  font-size: 32px;
+  padding: 10px 30px;
+  font-size: 20px;
   line-height: 1.3333333;
+  letter-spacing: 3px;
   border-radius: 6px;
   text-transform: uppercase;
   color: white;
@@ -67,10 +68,10 @@ p {
   border: none; }
 
 .navbar-default {
-  background: -webkit-gradient(linear, left top, right top, from(#19a0ff), to(#2d1582));
-  background: -webkit-linear-gradient(left, #19a0ff, #2d1582);
-  background: -o-linear-gradient(left, #19a0ff, #2d1582);
-  background: linear-gradient(to right, #19a0ff, #2d1582); }
+  background: -webkit-gradient(linear, left top, right top, from(rgba(25, 160, 255, 0.3)), to(rgba(45, 21, 130, 0.5)));
+  background: -webkit-linear-gradient(left, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5));
+  background: -o-linear-gradient(left, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5));
+  background: linear-gradient(to right, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5)); }
   .navbar-default .navbar-nav > li > a {
     color: #fff;
     text-transform: uppercase;
@@ -84,9 +85,10 @@ p {
     float: left;
     padding-left: 20px; }
   .btn-wt {
-    padding: 10px 16px;
-    font-size: 32px;
+    padding: 10px 30px;
+    font-size: 20px;
     line-height: 1.3333333;
+    letter-spacing: 2px;
     border-radius: 6px;
     text-transform: uppercase;
     color: white;
@@ -97,7 +99,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;
-    width: 100%; }
+    width: 50%; }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
     margin: 5px; } }
@@ -151,15 +153,21 @@ p {
 .nav-item {
   text-align: center; }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  color: #555;
-  cursor: default;
-  background-color: #fff;
-  border: none;
-  border-bottom-color: transparent; }
-
 .nav-tabs {
   border-bottom: none; }
+  .nav-tabs li.active {
+    border-bottom: 1px solid #666666;
+    color: #19a0ff !important; }
+    .nav-tabs li.active a {
+      border: none; }
+      .nav-tabs li.active a:focus {
+        border: none; }
+        .nav-tabs li.active a:focus h3 {
+          color: #19a0ff !important; }
+      .nav-tabs li.active a:hover {
+        cursor: default;
+        background-color: #fff;
+        border: none; }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   background-color: #ffffff; }
@@ -312,3 +320,5 @@ p.copyright {
   padding-bottom: 30px !important; }
 
 /* ./Contatti */
+
+/*# sourceMappingURL=style.css.map */
