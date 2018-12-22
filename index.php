@@ -111,7 +111,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 						<img style="width: 100%;" src="img/assistenza.jpg">
 					</div>
 					<div class="col-lg-6">
-						<img style="width: 100%;" src="img/assistenza.jpg">
+						<img style="width: 100%;" src="img/">
 						<img style="width: 100%;" src="img/assistenza.jpg">
 						<img style="width: 100%;" src="img/assistenza.jpg">
 					</div>
