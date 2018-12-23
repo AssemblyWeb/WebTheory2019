@@ -1,0 +1,13 @@
+/*Contatti*/
+.midlebox {
+  border-left: 1px solid #6E6E6E;
+  border-right: 1px solid #6E6E6E; }
+
+.textalign {
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: -moz-middle-with-baseline; }
+
+.rowpadding {
+  padding-bottom: 30px !important; }
+
+/* ./Contatti */

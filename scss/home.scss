@@ -1,0 +1,173 @@
+@import "variabiles";
+/*------------------------------------------------------------------*/
+/*INTRO*/
+
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-message-bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    padding-left: 60%;
+
+	p {
+	font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    }
+}
+
+@media(max-width:767px) {
+   .intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+
+	p {
+	font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    }
+}
+}
+
+/*END INTRO*/
+
+/*SEZIONE A*/
+
+.content-section-a {
+    padding: 0px 0;
+    background-color: #ffffff;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.intro2{
+	font-size: 60px;
+	padding-bottom: 50px;
+}
+
+.nav-item{
+	text-align:center;
+}
+
+.nav-tabs{
+	border-bottom: none;
+	li.active{
+		border-bottom: 1px solid #666666;
+		color: $ligth-blue !important;
+			a{
+		    border: none;
+		    
+				&:focus{
+					border: none;
+					h3{
+						color: $ligth-blue !important;
+					}
+				}
+				&:hover {
+					cursor: default;
+					background-color: #fff;
+					border: none;
+				}
+			}
+	}
+	
+} 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: #ffffff;
+}
+
+.homebanner{
+	width: 100%;
+	
+}
+
+@media(max-width:767px) {
+.nav-item{
+	text-align:center;
+	width: 33%;
+    padding: 0 !important;
+}
+.nav{
+	li{
+	}
+	h3{
+		font-size: 19px;
+	}
+	a{
+	padding: 0 !important;
+	position: relative;
+    display: inline;
+    }
+    img{
+	    width: auto;
+	    height: 50px;
+    }
+}
+}
+/*FINE SEZIONE A*/
+/*SEZIONE B*/
+.content-section-b {
+    padding: 150px 0;
+    border-top: none;
+    border-bottom: none;
+    background: url(../img/bg-section-b.png) no-repeat top right;
+}
+
+.logo-netbi{
+	width: 80%;
+	padding-bottom: 30px;
+}
+
+@media(max-width:767px) {
+   .logo-netbi{
+	width: 100%;
+	padding-bottom: 30px;
+}
+}
+
+.testo{
+	margin-bottom: 10px;
+}
+
+/*FINE SEZIONE B*/
+
+/*SEZIONE C*/
+.content-section-c {
+    padding: 150px 0;
+    border-top: none;
+    border-bottom: none;
+    background: url(../img/bg-section-c.svg) no-repeat top right;
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media(max-width:767px) {
+   .logo-netbi{
+	width: 100%;
+	padding-bottom: 30px;
+}
+}
+
+.testo{
+	margin-bottom: 10px;
+}
+
+/*FINE SEZIONE C*/

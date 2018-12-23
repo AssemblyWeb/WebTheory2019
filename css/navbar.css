@@ -1,0 +1,56 @@
+/*Nav Bar*/
+.buttonav {
+  border-color: 1px solid white; }
+
+.logo {
+  padding-top: 10px;
+  float: left;
+  width: 100%; }
+
+.navbar {
+  position: relative;
+  min-height: 90px;
+  margin-bottom: 0px;
+  border: none; }
+
+.navbar-default {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(25, 160, 255, 0.3)), to(rgba(45, 21, 130, 0.5)));
+  background: -webkit-linear-gradient(left, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5));
+  background: -o-linear-gradient(left, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5));
+  background: linear-gradient(to right, rgba(25, 160, 255, 0.3), rgba(45, 21, 130, 0.5)); }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: bold !important;
+    padding-top: 36px; }
+
+@media (max-width: 767px) {
+  .logo {
+    width: 70%;
+    float: left;
+    padding-left: 20px; }
+  .btn-wt {
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 1.3333333;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: white;
+    background: -webkit-gradient(linear, left top, right top, from(#1270e3), to(#59c2ff));
+    background: -webkit-linear-gradient(left, #1270e3, #59c2ff);
+    background: -o-linear-gradient(left, #1270e3, #59c2ff);
+    background: linear-gradient(to right, #1270e3, #59c2ff);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    width: 50%; }
+  .whitecta {
+    color: white !important;
+    font-size: 25px; }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+    margin: 5px; } }
+
+/*END NAV BAR*/

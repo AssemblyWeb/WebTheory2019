@@ -1,0 +1,24 @@
+@import "variabiles";
+/*Footer*/
+footer {
+    padding: 50px 0;
+	
+	h3{
+		font-size: 23px;
+		color: white;
+		padding-left: 30px;
+	}
+}
+
+.bgfoot{
+	background: linear-gradient(to left, $footer-dark, $footer-ligth);
+	}
+
+p.copyright {
+    margin: 15px 0 0;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+/*Fine Footer*/

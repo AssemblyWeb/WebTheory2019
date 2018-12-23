@@ -1,0 +1,21 @@
+/*Footer*/
+footer {
+  padding: 50px 0; }
+  footer h3 {
+    font-size: 23px;
+    color: white;
+    padding-left: 30px; }
+
+.bgfoot {
+  background: -webkit-gradient(linear, right top, left top, from(#666666), to(#333333));
+  background: -webkit-linear-gradient(right, #666666, #333333);
+  background: -o-linear-gradient(right, #666666, #333333);
+  background: linear-gradient(to left, #666666, #333333); }
+
+p.copyright {
+  margin: 15px 0 0;
+  font-size: 14px;
+  color: white;
+  text-align: center; }
+
+/*Fine Footer*/
