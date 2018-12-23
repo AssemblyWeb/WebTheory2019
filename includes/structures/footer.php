@@ -33,7 +33,8 @@
                 
             </div>
             	<hr>
-				<p class="copyright text-muted small">Copyright &copy; WebTheory è di Erik Alessandro Martinez / Via Cavalieri di Vittorio Veneto, 29 / 13825 Valle Mosso (BI) / P.I. 02534470022</p>
+				<p class="copyright text-muted small">Copyright &copy; WebTheory è di Erik Alessandro Martinez / Via Cavalieri di Vittorio Veneto, 29 / 13825 Valle Mosso (BI) / P.I. 02534470022<br> #Noanimaltestingcode </p>
+				
         </div>
     </footer>
 
