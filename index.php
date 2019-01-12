@@ -59,7 +59,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 						  			</div>
 						  			<div class="col-lg-6">
 						  				<h3 class="nomargin">Siti Web</h3>
-						  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						  				<p>Realizzo siti internet su misura per il tuo bussines, studieremo assieme le tue esigenze e come presentarti ai tuoi clienti, il tuo sito è sempre chiavi in mano e con la formazione puoi modificare i tuoi contenuti in modo indipendente.</p>
 						  				<a href="sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
 					  				</div>
 					  		</div>
@@ -69,7 +69,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 						  			</div>
 						  			<div class="col-lg-6">
 						  				<h3 class="nomargin">Assistenza</h3>
-						  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						  				<p>Mi occupo di riparazioni, configurazioni, connettività, di reti dati, sicurezza, assemblaggi pc, assistenza remota e allestimenti studi e uffici, tutto quello che ti serve per sfruttare la tecnologia al meglio a casa e in ufficio.</p>
 						  				<div class="btn btn-wt">Scopri</div>
 					  				</div>
 				    		</div>
@@ -79,9 +79,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 						  			</div>
 						  			<div class="col-lg-6">
 						  				<h3 class="nomargin">Consulenza</h3>
-						  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						  				<p>Hai un dubbio? Un problema che ti assilla? Ti serve semplicemente un consiglio? Nessun problema, posso essere il tuo punto di rifermento per i tuoi problemi informatici, in informatica c'è sempre più di una soluzione, assieme risolveremo il tuo problema tenendo sempre d'occhio il tuo budget.  </p>
 						  				<div class="btn btn-wt">Scopri</div>
-					  				</div>							</div>
+					  				</div>							
+					  			</div>
 				  		</div>
 					</div>
                 </div>

@@ -6,3 +6,17 @@ $nav-ligth-blue: rgba(25,160,255, 0.3) !default;
 $nav-dark-blue: rgba(45, 21, 130, 0.5) !default;
 $footer-ligth: #333333 !default;
 $footer-dark:#666666 !default;
+
+/*font Variables*/
+$primary-font: 'Lato', sans-serif;
+$title-font: 'Lato', sans-serif;
+
+
+/*Color Variables*/
+
+$title-color: #222222;
+$text-color: #777777; 
+
+
+/*=================== fonts ====================*/
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic');

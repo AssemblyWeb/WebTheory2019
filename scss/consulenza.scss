@@ -2,9 +2,129 @@
 /*consulenza*/
 .content-section-e {
     padding-top: 50px;
-    padding-bottom: 50px;
     border-top: none;
     border-bottom: none;
     background: url(../img/bg%20assistenza@2x.png) no-repeat top right;
 }
 /* ./consulenza */
+
+/* Price Area css
+============================================================================================ */
+.price_area{
+    background-image: url(../img/pricing-bg.png);
+    background-size: cover;
+
+}
+.price_inner{
+	
+}
+.price_item{
+	text-align: center;
+	border: 2px solid #eeeeee;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    @include transition();
+	.price_head{
+		text-align: center;
+		background: #ffffff;
+		padding: 35px 0px;
+		border-bottom: 1px solid #eeeeee;
+		h4{
+			font-size: 20px;
+			color: $title-color;
+            margin-bottom: 0px;
+            font-family: $title-font;
+		}
+	}
+	.price_body{
+        padding: 30px 0px;
+        background: #fff;
+        @include transition();
+		ul{
+			li{
+				margin-bottom: 15px;
+				a{
+					font-size: 14px;
+					color: #666666;
+					font-family: $primary-font;
+					font-weight: normal;
+				}
+				&:last-child{
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+	.price_footer{
+        background: rgba(25, 160, 255, 0.1);
+		max-width: 280px;
+		margin: 0px auto 40px;
+		border-radius: 5px;
+		padding-top: 35px;
+		padding-bottom: 40px;
+		h3{
+			color: $title-color;
+			font-size: 72px;
+			.dlr{
+				font-size: 24px;
+				vertical-align: top;
+				padding-top: 14px;
+                display: inline-block;
+                margin-right: -10px;
+			}
+			.month{
+				font-size: 14px;
+				color: $primary-font;
+				font-family: $title-color;
+				display: inline-block;
+				text-align: left;
+			}
+		}
+		
+	}
+	&:hover{
+        background: #fcf8ff;
+        border: double 2px transparent;
+        border-radius: 5px;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left,$ligth-blue,$dark-blue);
+        background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+		.price_head{
+			@extend .gradient-bg;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			h4{
+				color: #fff;
+			}
+        }
+        .price_body{
+            background: #fcf8ff;
+        }
+		.price_footer{
+			@extend .gradient-bg;
+			box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+			h3{
+				color: #fff;
+				.month{
+					color: #fff;
+				}
+			}
+			.primary_btn{
+                background-image: linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+                background-image: -webkit-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -webkit-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+                background-image: -moz-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -moz-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+                background-image: -ms-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -ms-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+                background-image: -o-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -o-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+				background: #fff;
+				color: $title-color;
+			}
+		}
+	}
+}
+/* End Price Area css
+============================================================================================ */

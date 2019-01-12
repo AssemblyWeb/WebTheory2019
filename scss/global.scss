@@ -49,6 +49,7 @@ p{
     margin-top: 0px;
     border: none;
     width: 50%;
+    margin-top: 30px;
 }
 
 .cta{
@@ -131,4 +132,59 @@ color: white !important;
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+}
+
+
+.gradient-bg {
+    @include gradient(90deg, $ligth-blue 0%, $dark-blue 100%);
+}
+
+.primary_btn {
+    display: inline-block;
+	color: #22195e;
+	letter-spacing: 1px;
+    font-family: $primary-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 47px;
+    outline: none !important;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: double 2px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+    background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+    background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left,$ligth-blue,$dark-blue);
+    background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+    background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    span{
+        padding: 0 35px;
+    }
+    &:hover {
+        background-image: linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-image: -webkit-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -webkit-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-image: -moz-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -moz-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-image: -ms-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -ms-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        background-image: -o-linear-gradient(to right, $ligth-blue 0%, $dark-blue 100%), -o-radial-gradient(circle at top left, $ligth-blue,$dark-blue);
+        color: #fff;
+        box-shadow: 0px 10px 30px rgba(130, 82, 250, 0.2);
+        border: 2px solid transparent;
+    }
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
