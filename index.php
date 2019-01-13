@@ -55,7 +55,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 				  		<div class="tab-content">
 				  			<div id="home" class="container tab-pane active"><br>
 					  				<div class="col-lg-6">
-						  				<img class="homebanner" src="img/sito3.png">
+						  				<img class="homebanner" src="img/erik-code.jpg">
 						  			</div>
 						  			<div class="col-lg-6">
 						  				<h3 class="nomargin">Siti Web</h3>
