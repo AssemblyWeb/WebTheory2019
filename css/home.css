@@ -244,7 +244,11 @@ input[name="tabs"] {
         -o-transition: .5s;
         transition: .5s; }
       .tabs label h3 {
-        font-size: 15px; } }
+        font-size: 15px; }
+  .container .tab {
+    display: none;
+    padding: 0;
+    margin-top: 20px; } }
 
 .testo {
   margin-bottom: 10px; }
