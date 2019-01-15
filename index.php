@@ -25,7 +25,6 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 	<a  name="services"></a>
 	<!-- content-section-a -->
     <div class="content-section-a">
-
         <div class="container">
 	        <div class="row">
                 <div class="col-lg-12 col-sm-12">
@@ -36,60 +35,59 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
               
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                
-					<div class="container mt-3">
 						<!-- Nav tabs -->
-						<ul class="nav nav-tabs">
-							<li class="nav-item col-lg-4 col-sm-4">
-								<a class="nav-link active " data-toggle="tab" href="#home"><img src="img/sitiweb%20icon.svg"><h3>Siti Web</h3></a>
-							</li>
-							<li class="nav-item col-lg-4 col-sm-4">
-							<a class="nav-link" data-toggle="tab" href="#menu1"><img src="img/repair%20icon.svg"><h3>Assistenza</h3></a>
-							</li>
-							<li class="nav-item col-lg-4 col-sm-4">
-								<a class="nav-link" data-toggle="tab" href="#menu2"><img src="img/consulenza%20icon.svg"><h3>Consulenza</h3></a>
-								</li>
-				  		</ul>
-				
-				  		<!-- Tab panes -->
-				  		<div class="tab-content">
-				  			<div id="home" class="container tab-pane active"><br>
-					  				<div class="col-lg-6">
-						  				<img class="homebanner" src="img/siti-internet.jpg">
-						  			</div>
-						  			<div class="col-lg-6">
-						  				<h3 class="nomargin">Siti Web</h3>
-						  				<p>Realizzo siti internet su misura per il tuo bussines, studieremo assieme le tue esigenze e come presentarti ai tuoi clienti, il tuo sito è sempre chiavi in mano e con la formazione puoi modificare i tuoi contenuti in modo indipendente.</p>
-						  				<a href="sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
-					  				</div>
-					  		</div>
-							<div id="menu1" class="container tab-pane fade"><br>
-								<div class="col-lg-6">
-									<img style="width: 100%;" src="img/riparazioni.jpg">
-						  			</div>
-						  			<div class="col-lg-6">
-						  				<h3 class="nomargin">Assistenza</h3>
-						  				<p>Mi occupo di riparazioni, configurazioni, connettività, di reti dati, sicurezza, assemblaggi pc, assistenza remota e allestimenti studi e uffici, tutto quello che ti serve per sfruttare la tecnologia al meglio a casa e in ufficio.</p>
-						  				<div class="btn btn-wt">Scopri</div>
-					  				</div>
-				    		</div>
-							<div id="menu2" class="container tab-pane fade"><br>
-								<div class="col-lg-6">
-									<img style="width: 100%;" src="img/assistenza.jpg">
-						  			</div>
-						  			<div class="col-lg-6">
-						  				<h3 class="nomargin">Consulenza</h3>
-						  				<p>Hai un dubbio? Un problema che ti assilla? Ti serve semplicemente un consiglio? Nessun problema, posso essere il tuo punto di rifermento per i tuoi problemi informatici, in informatica c'è sempre più di una soluzione, assieme risolveremo il tuo problema tenendo sempre d'occhio il tuo budget.  </p>
-						  				<div class="btn btn-wt">Scopri</div>
-					  				</div>							
-					  			</div>
-				  		</div>
+						<div class="container">
+							<input id="tab-1" type="radio" name="tabs" checked="checked"/>
+							<input id="tab-2" type="radio" name="tabs"/>
+							<input id="tab-3" type="radio" name="tabs"/>
+
+							<div class="tabs">
+						    	<label for="tab-1"><img src="img/sitiweb%20icon.svg"><h3>Siti Web</h3></label>
+								<label for="tab-2"><img src="img/repair%20icon.svg"><h3>Assistenza</h3></label>
+								<label for="tab-3"><img src="img/consulenza%20icon.svg"><h3>Consulenza</h3></label>
+  							</div>
+							  	<div class="content">
+							    	<div class="tab">
+										<div class="col-lg-6">
+											<img class="homebanner" src="img/siti-internet.jpg">
+										</div>
+										<div class="col-lg-6">
+											<h3 class="nomargin">Siti Web</h3>
+												<p>Realizzo siti internet su misura per il tuo bussines, studieremo assieme le tue esigenze e come presentarti ai tuoi clienti, il tuo sito è sempre chiavi in mano e con la formazione puoi modificare i tuoi contenuti in modo indipendente.
+												</p>
+												<a href="sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
+										</div>
+									</div>
+									<div class="tab">
+										<div class="col-lg-6">
+											<img style="width: 100%;" src="img/riparazioni.jpg">
+										</div>
+										<div class="col-lg-6">
+											<h3 class="nomargin">Assistenza</h3>
+												<p>Mi occupo di riparazioni, configurazioni, connettività, di reti dati, sicurezza, assemblaggi pc, assistenza remota e allestimenti studi e uffici, tutto quello che ti serve per sfruttare la tecnologia al meglio a casa e in ufficio.
+												</p>
+												<div class="btn btn-wt">Scopri</div>
+										</div>
+							    	</div>
+									<div class="tab">
+										<div class="col-lg-6">
+											<img style="width: 100%;" src="img/assistenza.jpg">
+										</div>
+										<div class="col-lg-6">
+											<h3 class="nomargin">Consulenza</h3>
+												<p>Hai un dubbio? Un problema che ti assilla? Ti serve semplicemente un consiglio? Nessun problema, posso essere il tuo punto di rifermento per i tuoi problemi informatici, in informatica c'è sempre più di una soluzione, assieme risolveremo il tuo problema tenendo sempre d'occhio il tuo budget.  	
+												</p>
+												<div class="btn btn-wt">Scopri</div>
+										</div>
+							    	</div>
+  								</div>
+						</div>
+
 					</div>
                 </div>
 
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.content-section-a -->
     
