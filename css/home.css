@@ -1,9 +1,13 @@
+/*font Variables*/
+/*Color Variables*/
+/*=================== fonts ====================*/
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic");
 /*------------------------------------------------------------------*/
 /*INTRO*/
 .intro-header {
   padding-top: 50px;
   /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   text-align: center;
   color: #f8f8f8;
   background: url(../img/intro-message-bg.png) no-repeat center center;
@@ -11,8 +15,8 @@
 
 .intro-message {
   position: relative;
-  padding-top: 15%;
-  padding-bottom: 20%;
+  padding-top: 13%;
+  padding-bottom: 25%;
   padding-left: 60%; }
   .intro-message p {
     font-size: 60px;
@@ -25,6 +29,17 @@
     padding-top: 10%;
     padding-bottom: 15%;
     padding-left: 10%; }
+    .intro-message p {
+      font-size: 60px;
+      font-weight: 400;
+      text-align: left; } }
+
+@media (max-width: 1366px) {
+  .intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 60%; }
     .intro-message p {
       font-size: 60px;
       font-weight: 400;
@@ -46,21 +61,24 @@
 .nav-item {
   text-align: center; }
 
-.nav-tabs {
-  border-bottom: none; }
-  .nav-tabs li.active {
-    border-bottom: 1px solid #666666;
-    color: #19a0ff !important; }
-    .nav-tabs li.active a {
-      border: none; }
-      .nav-tabs li.active a:focus {
-        border: none; }
-        .nav-tabs li.active a:focus h3 {
-          color: #19a0ff !important; }
-      .nav-tabs li.active a:hover {
-        cursor: default;
-        background-color: #fff;
-        border: none; }
+.nav-tab > ul li a {
+  border: none !important;
+  text-decoration: none;
+  color: black;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  position: relative; }
+  .nav-tab > ul li a:focus {
+    border: none; }
+    .nav-tab > ul li a:focus h3 {
+      color: #19a0ff !important; }
+  .nav-tab > ul li a:hover {
+    cursor: default;
+    background-color: #fff;
+    border: none; }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   background-color: #ffffff; }
@@ -125,3 +143,71 @@
   margin-bottom: 10px; }
 
 /*FINE SEZIONE C*/
+input[name="tabs"] {
+  display: none; }
+  input[name="tabs"]#tab-1:checked ~ .content .tab:nth-of-type(1) {
+    display: inline-block; }
+  input[name="tabs"]#tab-1:checked ~ .tabs label:nth-child(1) {
+    color: #242b36; }
+    input[name="tabs"]#tab-1:checked ~ .tabs label:nth-child(1):after {
+      width: calc(50% - 40px);
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+  input[name="tabs"]#tab-2:checked ~ .content .tab:nth-of-type(2) {
+    display: inline-block; }
+  input[name="tabs"]#tab-2:checked ~ .tabs label:nth-child(2) {
+    color: #242b36; }
+    input[name="tabs"]#tab-2:checked ~ .tabs label:nth-child(2):after {
+      width: calc(50% - 40px);
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+  input[name="tabs"]#tab-3:checked ~ .content .tab:nth-of-type(3) {
+    display: inline-block; }
+  input[name="tabs"]#tab-3:checked ~ .tabs label:nth-child(3) {
+    color: #242b36; }
+    input[name="tabs"]#tab-3:checked ~ .tabs label:nth-child(3):after {
+      width: calc(50% - 40px);
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+
+.tabs {
+  overflow-X: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  white-space: nowrap; }
+  .tabs label {
+    display: inline-block;
+    padding: 18px;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    width: 33%;
+    text-align: center; }
+    .tabs label:after {
+      content: '';
+      background: -webkit-gradient(linear, left top, right top, from(#1270e3), to(#59c2ff));
+      background: -webkit-linear-gradient(left, #1270e3, #59c2ff);
+      background: -o-linear-gradient(left, #1270e3, #59c2ff);
+      background: linear-gradient(to right, #1270e3, #59c2ff);
+      width: 0;
+      height: 4px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      -webkit-transition: .1s;
+      -o-transition: .1s;
+      transition: .1s; }
+
+.container .tab {
+  display: none;
+  padding: 0 20px;
+  margin-top: 20px; }
