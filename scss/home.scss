@@ -108,7 +108,7 @@ input[name="tabs"] {
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
-      transition: .1s;
+      transition: .5s;
     }
   }
 }
@@ -206,6 +206,66 @@ input[name="tabs"] {
     }
 }
 
+$tabs: 3;
+$brand: linear-gradient(to right, $btn-blue-dark , $btn-blue-ligth );
+
+input[name="tabs"] {
+  display: none;
+  @for $i from 1 through $tabs {
+    &#tab-#{$i}:checked {
+      ~ .content .tab:nth-of-type(#{$i}) {
+        display: inline-block;
+      }
+      ~ .tabs label:nth-child(#{$i}) {
+        color: #242b36;
+        &:after {
+          width: calc(80% - 20px);
+          transition: .5s;
+        }
+      }
+    }
+  }
+}
+
+.tabs {
+  overflow-X: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  white-space: nowrap;
+  label {
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    cursor: pointer;
+    width: 33%;
+    text-align: center;
+    &:after {
+      content: '';
+      background: $brand;
+      width: 0;
+      height: 4px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: .5s;
+    }
+    h3{
+	    font-size: 15px;
+    }
+  }
+}
+.container {
+  .tab {
+    display: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+}
 }
 
 .testo{

@@ -48,10 +48,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
   							</div>
 							  	<div class="content">
 							    	<div class="tab">
-										<div class="col-lg-6">
+										<div class="col-lg-6 col-sm-12">
 											<img class="homebanner" src="img/siti-internet.jpg">
 										</div>
-										<div class="col-lg-6">
+										<div class="col-lg-6 col-sm-12">
 											<h3 class="nomargin">Siti Web</h3>
 												<p>Realizzo siti internet su misura per il tuo bussines, studieremo assieme le tue esigenze e come presentarti ai tuoi clienti, il tuo sito è sempre chiavi in mano e con la formazione puoi modificare i tuoi contenuti in modo indipendente.
 												</p>
