@@ -25,21 +25,6 @@
     }
 }
 
-@media(max-width:768px) {
-   .intro-message {
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 15%;
-    padding-left: 10%;
-
-	p {
-	font-size: 30px;
-    font-weight: 400;
-    text-align: left;
-    }
-}
-}
-
 @media(max-width:1366px) {
    .intro-message {
     position: relative;
@@ -182,13 +167,6 @@ input[name="tabs"] {
 	padding-bottom: 30px;
 }
 
-@media(max-width:767px) {
-   .logo-netbi{
-	width: 100%;
-	padding-bottom: 30px;
-}
-}
-
 .testo{
 	margin-bottom: 10px;
 }
@@ -215,6 +193,19 @@ input[name="tabs"] {
 	width: 100%;
 	padding-bottom: 30px;
 }
+   .intro-message {
+    position: relative;
+    padding-top: 0%;
+    padding-bottom: 15%;
+    padding-left: 49%;
+
+	p {
+	font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    }
+}
+
 }
 
 .testo{
