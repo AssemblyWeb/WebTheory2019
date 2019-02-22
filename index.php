@@ -64,7 +64,7 @@ Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serv
 									</div>
 									<div class="tab">
 										<div class="col-lg-6">
-											<img style="width: 100%;" src="img/riparazioni.jpg">
+											<img class="homebanner" src="img/riparazioni.jpg">
 										</div>
 										<div class="col-lg-6">
 											<h3 class="nomargin">Assistenza</h3>
@@ -77,7 +77,7 @@ Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le 
 							    	</div>
 									<div class="tab">
 										<div class="col-lg-6">
-											<img style="width: 100%;" src="img/assistenza.jpg">
+											<img class="homebanner" src="img/assistenza.jpg">
 										</div>
 										<div class="col-lg-6">
 											<h3 class="nomargin">Consulenza</h3>
