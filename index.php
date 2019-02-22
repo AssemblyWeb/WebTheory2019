@@ -1,10 +1,12 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
  <!-- intro-header -->
     <div class="intro-header">
+	<?php	    
+		include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav-home.php");
+		?>
         <div class="container">
 
             <div class="row">
@@ -53,7 +55,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 										</div>
 										<div class="col-lg-6 col-sm-12">
 											<h3 class="nomargin">Siti Web</h3>
-												<p>Realizzo siti internet su misura per il tuo bussines, studieremo assieme le tue esigenze e come presentarti ai tuoi clienti, il tuo sito è sempre chiavi in mano e con la formazione puoi modificare i tuoi contenuti in modo indipendente.
+												<p>Realizzo siti internet su misura per il tuo business. <br>
+Ciò vuol dire che non ti proporrò mai una funzionalità o una pagina “perché lo fanno tutti”. <br>
+Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serve A TE. 
+
 												</p>
 												<a href="sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
@@ -64,7 +69,9 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 										</div>
 										<div class="col-lg-6">
 											<h3 class="nomargin">Assistenza</h3>
-												<p>Mi occupo di riparazioni, configurazioni, connettività, di reti dati, sicurezza, assemblaggi pc, assistenza remota e allestimenti studi e uffici, tutto quello che ti serve per sfruttare la tecnologia al meglio a casa e in ufficio.
+												<p>Credo che sia importantissimo poter sfruttare al meglio la tecnologia, sia a casa che in ufficio.<br>
+Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le aziende.
+
 												</p>
 												<div class="btn btn-wt">Scopri</div>
 										</div>
@@ -75,7 +82,9 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 										</div>
 										<div class="col-lg-6">
 											<h3 class="nomargin">Consulenza</h3>
-												<p>Hai un dubbio? Un problema che ti assilla? Ti serve semplicemente un consiglio? Nessun problema, posso essere il tuo punto di rifermento per i tuoi problemi informatici, in informatica c'è sempre più di una soluzione, assieme risolveremo il tuo problema tenendo sempre d'occhio il tuo budget.  	
+												<p>Hai un dubbio? Un problema che ti assilla? Ti serve un consiglio o hai una perplessità che potrebbe essere risolvibile con una miniconsulenza telefonica da 30 minuti? <br>
+Sono convinto che in ambito informatico ci sia sempre una soluzione, anzi spesso ce n’è più di una e insieme risolveremo il tuo problema, con una grande attenzione al budget.
+	
 												</p>
 												<div class="btn btn-wt">Scopri</div>
 										</div>
@@ -99,9 +108,12 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
             <div class="row">
                 <div class="col-lg-5"> 
 		                <img class="logo-netbi" src="img/logo%20netbi%20400%20da%20PS.png">
-		                <p class="testo">Siamo un network di aziende Biellesi, il nostro punto di forza più grande è il rapporto di fiducia che s’instaura con i clienti.</p>
-		                <p lass="testo">Ci piace ascoltare le esigenze di ognuno e proporre le soluzioni più adatte cercando di anticipare i futuri sviluppi che il cliente stesso non è in grado di vedere.</p>
-	                <div style="margin-top: 40px;" class="btn btn-wt">Scopri</div>
+		                <h2 class="rosso">L’UNIONE È LA NOSTRA FORZA</h2>
+						<p>Dal 2015 faccio parte del gruppo di lavoro <strong>Netbi</strong>.<br> Siamo il network di aziende <strong>Biellesi</strong> che si propone come unico fornitore di servizi tecnico informatici.<br>Siamo quattro aziende partner, dalle  <strong>CAPACITÀ ed ESPERIENZE</strong> complementari: questo è il nostro punto di <strong>forza</strong>.<br>
+Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo. 
+ 						</p>
+
+		        	<a href="https://netbi.it/" target="_blank"><div class="btn btn-wt">Scopri</div></a>
                 </div>
 				<div class="col-lg-7">
 					<div class="col-lg-6">

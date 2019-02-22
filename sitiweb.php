@@ -3,11 +3,47 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
+ 	<div class="container">
+		<div class="row">
+	            
+	            <!-- testo netbi -->
+				<div class="col-lg-12 col-sm-12">
+			   		<p class="testo">
+				   		Sono contro gli sprechi e i reworking non necessari e per questo lavoro così: </p>
+				   		<ul>
+				   			<li>
+				   				Partiamo con un’analisi preliminare delle tue esigenze avendo ben chiaro il tuo obiettivo, ovvero come presentarti ai tuoi clienti;
+				   			</li>
+				   			<li> 
+				   				A questo punto troveremo insieme la soluzione migliore per te e ti presenterò la preview grafica del sito, in modo che tu possa visualizzarne il risultato finale;
+				   			</li>
+				   			<li>
+				   				Ci incontriamo e pianifichiamo insieme i necessari aggiustamenti, ciò mi permetterà di partire con lo sviluppo del sito
+				   			</li>
+				   			<li>
+				   				Ti consegno la tua nuova casa digitale configurata e pronta all’uso.
+				   			</li>
+						</ul>
+						<p class="testo">
+						Credo che tu debba essere autonomo nell’aggiornare il tuo sito: non voglio farti perdere tempo (e denaro) per chiedermi ad esempio di modificarti la descrizione di un prodotto del tuo sito.<br>
+Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti come modificare i contenuti in modo indipendente e semplice
+
+					</p>
+
+                </div>
+						<!-- /.testo netbi -->
+
+	                           
+    	</div>
+	</div>
+ 
+ 
  <!-- Portfolio -->
     <section class="content-section" id="portfolio">
 		<div class="container">
+			
        		<div class="content-section-heading text-center">
-         		<h2>Progetti recenti</h2>
+         		<h2>Ultimi progetti</h2>
 		 	</div>
 		 	<!-- prima riga -->
 		 	<div class="row rowpadding">

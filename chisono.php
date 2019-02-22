@@ -14,8 +14,12 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
                 <!-- testo chi sono -->
                 <div class="col-lg-6 col-sm-12">
 	                <h2 class="blu">#ErikRisolve</h2>
-	                <p>Tutto è nato nell’aprile del 2013, una scommessa sul futuro focalizzata sul mondo del web e dell’informatica. <br>Il mio obiettivo era chiaro ma non per questo di semplice realizzazione: implementare un gruppo di lavoro in grado di fornire ai propri clienti molteplici servizi e benefici. <br>Erogare un servizio a 360°, dalla creazione di siti web alla fornitura di apparecchiature informatiche, dalla consulenza specializzata alla riparazione di smartphone e device di vario tipo in un ambito territoriale circoscritto (per ora!) alla provincia di Biella. <br>
-Fidelizzazione e soddisfazione del cliente sono diventate da quel momento la filosofia aziendale di Web Theory. <br>Le collaborazioni sono la colonna portante di questo progetto che, non a caso, ha individuato nel <strong class="blu">SellaLab</strong> un perfetto incubatore da cui trarre spinta ed energia, dal quale da febbraio 2015 ho traggo nuova linfa vitale nuove collaborazioni, idee ed esperienze da vivere con entusiasmo e passione. </p>
+	                <p>Nell’aprile del 2013 ho fatto una scommessa sul mio futuro e ho creato un gruppo di lavoro focalizzato sui temi del web e dell’informatica, in grado di fornire ai propri clienti molteplici servizi e benefici. <br>
+Il mio progetto si chiama <strong>Web Theory</strong> e credo che un cliente pienamente soddisfatto sia poi felice di tornare, la tua soddisfazione è quello su cui lavoro tutti i giorni. <br>
+Io e i miei partner vogliamo rispondere nel modo migliore alle esigenze delle persone che si rivolgono a noi, il nostro obiettivo è far percepire l’utilità e la varietà dei servizi che possiamo offrire: dalla creazione di siti web alla fornitura di apparecchiature informatiche, dalla consulenza specializzata alla riparazione di smartphone e apparecchiature di vario tipo in un ambito territoriale circoscritto (per ora!) alla <strong>provincia di Biella</strong>. <br>
+Le collaborazioni sono la colonna portante di questo progetto che, non a caso, ho deciso di far nascere all’interno di <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a> che per me è stato un perfetto incubatore da cui trarre nuova energia e spunti di crescita. <br>
+Da febbraio 2015 le collaborazioni, le idee e le esperienze che ho fatto in questo luogo mi permettono di affrontare ogni giorno il mio lavoro con entusiasmo e passione.
+ </p>
 
                 </div>
                 <!-- /.testo chi sono -->
@@ -29,17 +33,20 @@ Fidelizzazione e soddisfazione del cliente sono diventate da quel momento la fil
             </div>
             
              <div class="content-section-f">
-            <div class="container">
-            <div class="row">
+			 	<div class="container">
+			 		<div class="row">
 	            
 	            <!-- testo netbi -->
-                <div class="col-lg-6 col-sm-12">
-	                <h2 class="rosso">L’UNIONE È LA NOSTRA FORZA</h2>
-	                <p>Dal 2015 faccio parte del gruppo di lavoro Netbi, un network di aziende <strong>Biellesi</strong> nato con lo scopo di proporsi come fornitore unico grazie alla possibilità di offrire l'esperienza combinata di quattro aziende diverse con le  competenza acquisite negli anni su vari fronti, possiamo offriti: <strong>CAPACITÀ, ESPERIENZA, AFFIDABILITÀ</strong> a servizio della tua attività. <br></p>
+               			 <div class="col-lg-6 col-sm-12">
+			   			 	<p class="testo">Io e la mia WebTheory facciamo parte di un network di aziende biellesi specializzate in ambito informatico.
+Siamo al <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a>, polo di innovazione aperto da Banca Sella a Biella, luogo in cui accadono nuove cose nel panorama tecnologico italiano.
+Il nostro modo di lavorare pone al centro, le esigenze informatiche delle persone e delle aziende che si rivolgono a noi. Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clienti, in modo che le implementazioni future abbiamo il minor impatto, economico e strutturale, possibile. Il nostro punto di forza è il rapporto di fiducia che si instaura in questo modo con chi si affida a noi.
+</p>
+
 	                <a href="https://netbi.it/" target="_blank"><div class="btn btn-wt">Scopri</div></a>
 
-                </div>
-                <!-- /.testo netbi -->
+                		</div>
+						<!-- /.testo netbi -->
 
 	            
                 <div class="col-lg-6 col-sm-12">

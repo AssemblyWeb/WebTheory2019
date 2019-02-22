@@ -42,7 +42,7 @@ p{
     font-size: 20px;
     line-height: 1.3333333;
     letter-spacing: 3px;
-    border-radius: 6px;
+    border-radius: 4px;
     text-transform: uppercase;
     color: white;
     background: linear-gradient(to right, $btn-blue-dark , $btn-blue-ligth );
@@ -61,6 +61,11 @@ p{
 
 .whitecta{
 color: white !important;	
+font-size: 22px !important;
+}
+
+.white{
+	color: white !important;
 }
 
 .nomargin {

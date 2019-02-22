@@ -8,34 +8,46 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 	<div class="row">
         <div class="col-lg-6">  
 	        <h2>La soluzione a tuoi problemi</h2>  
-			<p class="testo">SSpicy jalapeno bacon ipsum dolor amet rump biltong pork chop porchetta meatloaf, shoulder spare ribs venison tri-tip.<br> Bresaola t-bone swine meatball, flank burgdoggen corned beef salami tongue pork loin shoulder capicola..</p>
+			<p> Contattami per:
+				<ul class="testo">
+					<li>Riparazioni di smartphone, pc, mac</li>
+					<li>Configurazioni (es. posta elettronica)</li>
+					<li>Connettività </li>
+					<li>Reti di dati </li>
+					<li>Sicurezza </li>
+					<li>Assemblaggi di pc</li>
+					<li>Assistenza remota </li>
+					<li>Allestimenti studi e uffici</li>
+				</ul>
+</p>
         </div>
 		<div class="col-lg-6">
-			<div class="col-lg-4">
-				<img style="width: 100%;" src="img/assistenza.jpg">
-				<h3>Reti</h3>
+			<div class="nav-item col-lg-4">
+				<img style="width: 50%;" src="img/riparazione-01.svg">
+				<h3>Riparazioni
+				</h3>
 			</div>
-			<div class="col-lg-4">
-				<img style="width: 100%;" src="img/assistenza.jpg">
-				<h3>Sicurezza</h3>						
+			<div class="nav-item col-lg-4">
+				<img style="width: 50%;" src="img/retidati-02.svg">
+				<h3>Rete dati</h3>						
 			</div>
-			<div class="col-lg-4">
-				<img style="width: 100%;" src="img/assistenza.jpg">
-				<h3>Reti</h3>						
+			<div class="nav-item col-lg-4">
+				<img style="width: 50%;" src="img/remota.svg">
+				<h3>Assistenza remota</h3>						
 			</div>
 		</div>
 		<div class="col-lg-6">
-			<div class="col-lg-4">
-				<img style="width: 100%;" src="img/assistenza.jpg">
-				<h3>Reti</h3>
+			<div class="nav-item col-lg-4">
+				<img style="width: 50%;" src="img/configurazione-04.svg">
+				<h3>Configurazioni</h3>
 			</div>
-			<div class="col-lg-4">
-				<img style="width: 100%;" src="img/assistenza.jpg">
-				<h3>Reti</h3>
+			<div class="nav-item col-lg-4">
+				<img style="width: 50%;" src="img/assemblaggio-05.svg">
+				<h3>Assemblaggio PC</h3>
 			</div>
-			<div class="col-lg-4">
-				<img style="width: 100%;" src="img/assistenza.jpg">
-				<h3>Reti</h3>	
+			<div class="nav-item col-lg-4">
+				<img style="width: 50%;" src="img/allestimenti-06.svg">
+				<h3>Allestimenti uffici</h3>	
 			</div>
 		</div>
 	</div>
