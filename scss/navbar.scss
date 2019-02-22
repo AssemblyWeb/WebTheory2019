@@ -14,7 +14,7 @@
 .navbar {
     position: relative;
     min-height: 90px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
         border: none;
 }
 
@@ -57,9 +57,9 @@
 	font-size: 25px;
 	}
 
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #ffffff;
     margin: 5px;
-}
+	}
 }
 /*END NAV BAR*/
