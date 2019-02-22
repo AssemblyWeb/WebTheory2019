@@ -21,11 +21,11 @@
 
 				
 				<form  class="popup-form"  method="post" action="index.php?send=1">
-					<h4>Nome</h4>
+					<h4>Come ti chiamo quando ti saluterò per risponderti?</h4>
 					<input type="text" class="form-control form-white" placeholder="Nome e Cognome" name="nome" value="<?php if (isset($nome)) echo $nome;?>">
-					<h4>Email</h4>
+					<h4>A quale email posso scriverti?</h4>
 					<input type="text" class="form-control form-white" placeholder="Indirizzo E-mail" name="email" value="<?php if (isset($email)) echo $email;?>">
-					<h4>Telefono</h4>
+					<h4>A quale numero di telefono posso telefonarti?</h4>
 					<input type="text" class="form-control form-white"  placeholder="Telefono" name="telefono" required="required" value="<?php if (isset($telefono)) echo $telefono;?>">
 					<div class="checkbox-holder text-left">
 						<h4>Come posso aiutarti?</h4>
@@ -35,7 +35,7 @@
 							 <div class="col-lg-12">
 							 	<input type="checkbox" value="true" id="squaredOne" name="privacy" required="required"/>
 
-							 	<label for="squaredOne"><span>Acconsento a <strong>Termini &amp; Condizioni</strong></span></label>
+							 	<label for="squaredOne"><span>Ho letto e acconsento a <strong>Termini &amp; Condizioni</strong></span></label>
 							 	</div>
 						</div>
 					</div>

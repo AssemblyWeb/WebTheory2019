@@ -58,7 +58,6 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 												<p>Realizzo siti internet su misura per il tuo business. <br>
 Ciò vuol dire che non ti proporrò mai una funzionalità o una pagina “perché lo fanno tutti”. <br>
 Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serve A TE. 
-
 												</p>
 												<a href="sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
@@ -106,7 +105,7 @@ Sono convinto che in ambito informatico ci sia sempre una soluzione, anzi spesso
         <div class="container">
 				
             <div class="row">
-                <div class="col-lg-5"> 
+                <div class="col-lg-4"> 
 		                <img class="logo-netbi" src="img/logo%20netbi%20400%20da%20PS.png">
 		                <h2 class="rosso">L’UNIONE È LA NOSTRA FORZA</h2>
 						<p>Dal 2015 faccio parte del gruppo di lavoro <strong>Netbi</strong>.<br> Siamo il network di aziende <strong>Biellesi</strong> che si propone come unico fornitore di servizi tecnico informatici.<br>Siamo quattro aziende partner, dalle  <strong>CAPACITÀ ed ESPERIENZE</strong> complementari: questo è il nostro punto di <strong>forza</strong>.<br>
@@ -115,16 +114,17 @@ Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo.
 
 		        	<a href="https://netbi.it/" target="_blank"><div class="btn btn-wt">Scopri</div></a>
                 </div>
-				<div class="col-lg-7">
+				<div class="col-lg-8 divider">
 					<div class="col-lg-6">
-						<img style="width: 100%;" src="img/assistenza.jpg">
-						<img style="width: 100%;" src="img/assistenza.jpg">
-						<img style="width: 100%;" src="img/assistenza.jpg">
+						<img style="width: 100%;" src="img/netbi-plaxi-1.jpg">
+						<br></br>
+						<img style="width: 100%;" src="img/netbi home.jpg">
 					</div>
 					<div class="col-lg-6">
-						<img style="width: 100%;" src="img/">
-						<img style="width: 100%;" src="img/assistenza.jpg">
-						<img style="width: 100%;" src="img/assistenza.jpg">
+						
+						<img style="width: 100%;" src="img/netbi home 2.jpg">
+						<br></br>
+						<img style="width: 100%;" src="img/netbi-team.jpg">
 					</div>
 				</div>
             </div>

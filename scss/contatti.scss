@@ -3,13 +3,20 @@
 .midlebox{
 	border-left: 1px solid #6E6E6E;
 	border-right: 1px solid #6E6E6E;
+	
 }
 
 .textalign {
 	vertical-align: -webkit-baseline-middle;
 	vertical-align: -moz-middle-with-baseline;
 	}
-.rowpadding{
+.sezionecontatti{
 	padding-bottom: 30px !important;
+	h3{
+		line-height: 0.4 !important;
+	}
+	h2{
+		margin-bottom: 30px;
+	}
 }
 /* ./Contatti */

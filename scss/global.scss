@@ -26,6 +26,7 @@ h6 {
 
 p{
 	font-size: 23px;
+	text-align: justify;
 	font-weight: 300;
 }
 
@@ -49,13 +50,14 @@ p{
     margin-top: 0px;
     border: none;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .cta{
 	padding-top: 25px;
 	h3{
 	margin-top: 0 !important;
+	line-height: 0.9;
 	}
 }
 
@@ -192,4 +194,8 @@ font-size: 22px !important;
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.rowpadding{
+	padding-bottom: 30px !important;
 }

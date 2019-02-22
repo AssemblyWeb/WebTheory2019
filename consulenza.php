@@ -7,7 +7,9 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
        		  <div class="row rowpadding">
                 <div class="col-lg-12 col-sm-12">
 	                <h3 class="textcenter intro2">Tu che sei informatico...</h3>
-	                <p class="textcenter">Una frase che mi sento dire spesso, ma che per me è diventata una missione, aiutarti a scoprire quali strumenti oggi la tecnologia ci mette a disposizione, scoprirai come e quante cose si possono fare anche senza spendere cifre esorbitanti o impazzire a studiare manuali d'istruzione giganti. <br>
+	                <p class="textcenter">Una frase che mi sento dire spesso, e che per me è diventata una missione.
+Ti aiuto scoprire quali strumenti oggi la tecnologia ci mette a disposizione e la cosa più bella per me è aiutarti a scoprire come e quante cose si possono fare anche senza spendere cifre esorbitanti o impazzire a studiare manuali d'istruzione giganti. 
+ <br>
 		                Preferisci una formula <strong>zero pensieri?</strong>
 	                </p>
 	            </div>
@@ -29,8 +31,16 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 		    
 		      <div class="row rowpadding">
                 <div class="col-lg-12 col-sm-12">
-                	<h3 class="textcenter">La soluzione ai tuoi problemi</h3>
-	                <p class="textcenter">Perché scegliere un pacchetto di assistenza? Facile sono <strong>prepagati</strong> sai sempre quanto stai spendendo, sono sicuri e ti danno la priorità sugli altri clienti. Con i pacchetti di Ticket non avrai più pensieri basterà una telefonata per risolvere tutti i tuoi problemi, dall'installazione del router a casa o in ufficio o alla pulizia del pc da virus, tu chiami io risolvo.</p>
+                	<h3 class="textcenter">La soluzione alle tue esigenze</h3>
+	                <p class="textcenter">
+Perché scegliere un pacchetto di assistenza? <br>
+Facile!<br>
+È <strong>prepagato</strong> così sai sempre quanto stai spendendo.<br>
+È <strong>sicuro</strong> e ti danno la priorità sugli altri clienti. <br>
+Basterà una telefonata e mi attiverò subito per risolvere tutti i tuoi problemi, dall'installazione del router a casa o in ufficio alla pulizia del pc da virus.<br>
+Tu chiami io risolvo.<br>
+E tu puoi saltare la coda.<br>
+</p>
 						<!--================Srart Pricing Area =================-->
 	
 		<div class="container">
