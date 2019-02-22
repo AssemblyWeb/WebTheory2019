@@ -49,7 +49,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<div class="row rowpadding">
 			 	<!--prima slide -->
 		 		<div class="col-lg-4">
-		 			<a class="portfolio-item" href="#">
+		 			<a class="portfolio-item" href="https://asaheadwear.com/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
 		 						<h2>ASA</h2>
@@ -60,7 +60,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--seconda slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="https://www.oltreilgiardinonlus.it/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
 		  						<h2>Oltreilgiardino</h2>
@@ -71,7 +71,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--terza slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="https://www.procomvalves.it/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
 		  					<h2>Procom</h2>
@@ -85,7 +85,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<div class="row rowpadding">
 			 	<!--quarta slide -->
 		 		<div class="col-lg-4">
-		 			<a class="portfolio-item" href="#">
+		 			<a class="portfolio-item" href="http://www.mossoverticalmille.it/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
 		 						<h2>M V M</h2>
@@ -96,7 +96,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--quinta slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="https://tantintenti.org/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
 		  						<h2>Tantintenti</h2>
@@ -107,7 +107,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--sesta slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="http://watchyourwatch.eu/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
 		  					<h2>Watch your watch</h2>
@@ -121,7 +121,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<div class="row rowpadding">
 			 	<!--settima slide -->
 		 		<div class="col-lg-4">
-		 			<a class="portfolio-item" href="#">
+		 			<a class="portfolio-item" href="http://alpemoncerchio.it/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
 		 						<h2>Alpe Moncerchio</h2>
@@ -132,7 +132,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--ottava slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="http://www.bocchettosessera.it/home/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
 		  						<h2>Bocchetto Sessera</h2>
@@ -143,7 +143,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--nona slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="http://www.presepegigantemarchetto.it/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
 		  					<h2>Presepe gigante</h2>
@@ -157,7 +157,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<div class="row rowpadding">
 			 	<!--decima slide -->
 		 		<div class="col-lg-4">
-		 			<a class="portfolio-item" href="#">
+		 			<a class="portfolio-item" href="http://www.fratinvini.it/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
 		 						<h2>Fratin</h2>
@@ -168,7 +168,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--undicesima slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="http://www.teamvolley.net/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
 		  						<h2>Team Volley</h2>
@@ -179,7 +179,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
           		</div>
           		<!--dodicesima slide -->
 		  		<div class="col-lg-4">
-		  			<a class="portfolio-item" href="#">
+		  			<a class="portfolio-item" href="http://orti.lamalpenga.it/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
 		  					<h2>La Malpenga</h2>
