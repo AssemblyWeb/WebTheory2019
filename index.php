@@ -108,7 +108,7 @@ Sono convinto che in ambito informatico ci sia sempre una soluzione, anzi spesso
                 <div class="col-lg-4"> 
 		                <img class="logo-netbi" src="img/logo%20netbi%20400%20da%20PS.png">
 		                <h2 class="rosso">L’UNIONE È LA NOSTRA FORZA</h2>
-						<p>Dal 2015 faccio parte del gruppo di lavoro <strong>Netbi</strong>.<br> Siamo il network di aziende <strong>Biellesi</strong> che si propone come unico fornitore di servizi tecnico informatici.<br>Siamo quattro aziende partner, dalle  <strong>CAPACITÀ ed ESPERIENZE</strong> complementari: questo è il nostro punto di <strong>forza</strong>.<br>
+						<p>Dal 2015 faccio parte del gruppo di lavoro <strong>Netbi</strong>.<br> Siamo un network di aziende <strong>Biellesi</strong> che si propone come unico fornitore di servizi tecnico informatici.<br>Siamo quattro aziende partner, dalle  <strong>CAPACITÀ ed ESPERIENZE</strong> complementari: questo è il nostro punto di <strong>forza</strong>.<br>
 Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo. 
  						</p>
 
@@ -118,11 +118,11 @@ Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo.
 					<div class="col-lg-6">
 						<img style="width: 100%;" src="img/netbi-plaxi-1.jpg">
 						<br></br>
-						<img style="width: 100%;" src="img/netbi home.jpg">
+						<img  class="hidden-xs" style="width: 100%;" src="img/netbi home.jpg">
 					</div>
 					<div class="col-lg-6">
 						
-						<img style="width: 100%;" src="img/netbi home 2.jpg">
+						<img class="hidden-xs" style="width: 100%;" src="img/netbi home 2.jpg">
 						<br></br>
 						<img style="width: 100%;" src="img/netbi-team.jpg">
 					</div>

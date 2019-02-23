@@ -48,29 +48,22 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
             </div>
             <div class="row textcenter rowpadding">
 				<div class="col-lg-4 col-sm-12 rowpadding">
-	                <div class="col-lg-2">
-		                <img class="iconcontact" src="img/contact%20mail%20icon@2x.png">
-	                </div>
-                    <div class="col-lg-10">
+	             
 	                    <h3 class="blu">Lun-Mer-Ven</h3>
 	                    
-                    </div>
+                    
                 </div>
                 <div class="col-lg-4 col-sm-12 midlebox rowpadding">
-	                <div class="col-lg-2">
-		                <img class="iconcontact" src="img/tel%20contantc%20icon@2x.png">
-	                </div>
-                    <div class="col-lg-10">
+	              
+                  
 	                    <h3 class="blu">9:00 - 18:00</h3>
-                    </div>
+                  
                 </div>
                 <div class="col-lg-4 col-sm-12 rowpadding">
-                    <div class="col-lg-2">
-		                <img class="iconcontact" src="img/facebook%20contact%20icon@2x.png">
-	                </div>
-                    <div class="col-lg-10">
+                   
+                  
 	                    <h3 class="blu">Via Corradino Sella, 10</h3>
-                    </div>
+                    
                 </div>
             </div>
 			
