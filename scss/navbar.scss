@@ -6,9 +6,9 @@
 }
 
 .logo{
-	width: 80%;
 	padding-top: 10px;
 	float: left;
+	width: 100%;
 }
 
 .navbar {
@@ -30,8 +30,12 @@
 	}
 }
 
-@media(max-width:767px) {
-
+@media(max-width:768px) {
+	.logo{
+	width: 70%;
+	float: left;
+	padding-left: 0px;
+	}
 	
 	.btn-wt{
     padding: 10px 30px;
@@ -58,8 +62,6 @@
     margin: 5px;
 	}
 }
-
-
 
 
 
