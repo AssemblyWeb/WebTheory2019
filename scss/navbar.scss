@@ -31,11 +31,7 @@
 }
 
 @media(max-width:767px) {
-	.logo{
-	width: 70%;
-	float: left;
-	padding-left: 20px;
-	}
+
 	
 	.btn-wt{
     padding: 10px 30px;
@@ -63,15 +59,8 @@
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  .logo{
-	width: 30%;
-	float: left;
-	padding-left: 20px;
-	}
-  
-}
+
+
 
 
 /*END NAV BAR*/
