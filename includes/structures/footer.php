@@ -17,11 +17,14 @@
 							</li>
 							
 							<li>
-								<a href="#services"><h3>Servizi</h3></a>
-								
-									<li>
-									<a href="#services"><h3>Siti Web</h3></a>
-									</li>
+								<a href="/assistenza.php"><h3>Assistenza</h3></a>
+							</li>
+							<li>
+								<a href="/consulenza.php"><h3>Consulenza</h3></a>
+							</li>
+							<li>
+								<a href="/sitiweb.php"><h3>Siti Web</h3></a>
+							</li>
 								
 							</li>
 							
