@@ -16,7 +16,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 	                <h2 class="blu">#ErikRisolve</h2>
 	                <p>Nell’aprile del 2013 ho fatto una scommessa sul mio futuro e ho creato un gruppo di lavoro focalizzato sui temi del web e dell’informatica, in grado di fornire ai propri clienti molteplici servizi e benefici. <br>
 Il mio progetto si chiama <strong>Web Theory</strong> e credo che un cliente pienamente soddisfatto sia poi felice di tornare, la tua soddisfazione è quello su cui lavoro tutti i giorni. <br>
-Io e i miei partner vogliamo rispondere nel modo migliore alle esigenze delle persone che si rivolgono a noi, il nostro obiettivo è far percepire l’utilità e la varietà dei servizi che possiamo offrire: dalla creazione di siti web alla fornitura di apparecchiature informatiche, dalla consulenza specializzata alla riparazione di smartphone e apparecchiature di vario tipo in un ambito territoriale circoscritto (per ora!) alla <strong>provincia di Biella</strong>. <br>
+Io e i miei partner vogliamo rispondere nel modo migliore alle esigenze delle persone che si rivolgono a noi, il nostro obiettivo è far percepire l’utilità e la varietà dei servizi che possiamo offrire: dalla creazione di siti web alla fornitura di apparecchiature informatiche, dalla consulenza specializzata alla riparazione di smartphone e apparecchiature di vario tipo.<br> Per ora mi trovi in <strong>Provincia di Biella</strong>. <br>
 Le collaborazioni sono la colonna portante di questo progetto che, non a caso, ho deciso di far nascere all’interno di <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a> che per me è stato un perfetto incubatore da cui trarre nuova energia e spunti di crescita. <br>
 Da febbraio 2015 le collaborazioni, le idee e le esperienze che ho fatto in questo luogo mi permettono di affrontare ogni giorno il mio lavoro con entusiasmo e passione.
  </p>
@@ -39,8 +39,9 @@ Da febbraio 2015 le collaborazioni, le idee e le esperienze che ho fatto in ques
 	            <!-- testo netbi -->
                			 <div class="col-lg-6 col-sm-12">
 			   			 	<p class="testo">Io e la mia WebTheory facciamo parte di un network di aziende biellesi specializzate in ambito informatico.
-Siamo al <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a>, polo di innovazione aperto da Banca Sella a Biella, luogo in cui accadono nuove cose nel panorama tecnologico italiano.
-Il nostro modo di lavorare pone al centro, le esigenze informatiche delle persone e delle aziende che si rivolgono a noi. Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clienti, in modo che le implementazioni future abbiamo il minor impatto, economico e strutturale, possibile. Il nostro punto di forza è il rapporto di fiducia che si instaura in questo modo con chi si affida a noi.
+Siamo al <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a>, polo di innovazione aperto da Banca Sella a Biella, luogo in cui accadono nuove cose nel panorama tecnologico italiano.<br>
+Il nostro modo di lavorare pone al centro, le esigenze informatiche delle persone e delle aziende che si rivolgono a noi.<br>
+Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clienti, in modo che le implementazioni future abbiamo il minor impatto, economico e strutturale, possibile. Il nostro punto di forza è il rapporto di fiducia che si instaura in questo modo con chi si affida a noi.
 </p>
 
 	                <a href="https://netbi.it/" target="_blank"><div class="btn btn-wt">Scopri</div></a>

@@ -12,7 +12,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
                     <div class="intro-message">
-                        <p>UN MONDO <br>DI SERVIZI<br>PER TE</p>
+                        <p>SONO ERIK <br> E HO 3 SOLUZIONI<br> PER TE:</p>
                       </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@ Sono convinto che in ambito informatico ci sia sempre una soluzione, anzi spesso
             <div class="row">
                 <div class="col-lg-4"> 
 		                <img class="logo-netbi" src="img/logo%20netbi%20400%20da%20PS.png">
-		                <h2 class="rosso">L’UNIONE È LA NOSTRA FORZA</h2>
+		                <h2 class="rosso">NETBI: L’UNIONE È LA NOSTRA FORZA</h2>
 						<p>Dal 2015 faccio parte del gruppo di lavoro <strong>Netbi</strong>.<br> Siamo un network di aziende <strong>Biellesi</strong> che si propone come unico fornitore di servizi tecnico informatici.<br>Siamo quattro aziende partner, dalle  <strong>CAPACITÀ ed ESPERIENZE</strong> complementari: questo è il nostro punto di <strong>forza</strong>.<br>
 Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo. 
  						</p>
