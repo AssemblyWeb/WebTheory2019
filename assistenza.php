@@ -10,14 +10,14 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 	        <h2>La soluzione a tuoi problemi</h2>  
 			<p> Contattami per:
 				<ul class="testo">
-					<li>Riparazioni di smartphone, pc, mac</li>
-					<li>Configurazioni (es. posta elettronica)</li>
-					<li>Connettività </li>
-					<li>Reti di dati </li>
-					<li>Sicurezza </li>
-					<li>Assemblaggi di pc</li>
-					<li>Assistenza remota </li>
-					<li>Allestimenti studi e uffici</li>
+					<li><p class="testo">Riparazioni di smartphone, Pc, Mac</p></li>
+					<li><p class="testo">Configurazioni (es. posta elettronica)</p></li>
+					<li><p class="testo">Connettività</p> </li>
+					<li><p class="testo">Reti di dati</p> </li>
+					<li><p class="testo">Sicurezza</p> </li>
+					<li><p class="testo">Assemblaggi di pc</p></li>
+					<li><p class="testo">Assistenza remota</p> </li>
+					<li><p class="testo">Allestimenti studi e uffici</p></li>
 				</ul>
 </p>
         </div>

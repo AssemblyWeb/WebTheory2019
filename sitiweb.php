@@ -12,16 +12,16 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 				   		Sono contro gli sprechi e i reworking non necessari e per questo lavoro così: </p>
 				   		<ul>
 				   			<li>
-				   				Partiamo con un’analisi preliminare delle tue esigenze avendo ben chiaro il tuo obiettivo, ovvero come presentarti ai tuoi clienti;
+				   				<p class="testo">Partiamo con un’analisi preliminare delle tue esigenze avendo ben chiaro il tuo obiettivo, ovvero come presentarti ai tuoi clienti;</p>
 				   			</li>
 				   			<li> 
-				   				A questo punto troveremo insieme la soluzione migliore per te e ti presenterò la preview grafica del sito, in modo che tu possa visualizzarne il risultato finale;
+				   				<p class="testo">A questo punto troveremo insieme la soluzione migliore per te e ti presenterò la preview grafica del sito, in modo che tu possa visualizzarne il risultato finale;</p>
 				   			</li>
 				   			<li>
-				   				Ci incontriamo e pianifichiamo insieme i necessari aggiustamenti, ciò mi permetterà di partire con lo sviluppo del sito
+				   				<p class="testo">Ci incontriamo e pianifichiamo insieme i necessari aggiustamenti, ciò mi permetterà di partire con lo sviluppo del sito</p>
 				   			</li>
 				   			<li>
-				   				Ti consegno la tua nuova casa digitale configurata e pronta all’uso.
+				   				<p class="testo">Ti consegno la tua nuova casa digitale configurata e pronta all’uso.</p>
 				   			</li>
 						</ul>
 						<p class="testo">
