@@ -44,9 +44,9 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 							<input id="tab-3" type="radio" name="tabs"/>
 
 							<div class="tabs">
-						    	<label for="tab-1"><img src="img/sitiweb%20icon.svg"><h3>Siti Web</h3></label>
-								<label for="tab-2"><img src="img/repair%20icon.svg"><h3>Assistenza</h3></label>
-								<label for="tab-3"><img src="img/consulenza%20icon.svg"><h3>Consulenza</h3></label>
+						    	<label for="tab-1"><img class="icontab" src="img/sitiweb%20icon.svg"><h3>Siti Web</h3></label>
+								<label for="tab-2"><img class="icontab" src="img/repair%20icon.svg"><h3>Assistenza</h3></label>
+								<label for="tab-3"><img class="icontab" src="img/consulenza%20icon.svg"><h3>Consulenza</h3></label>
   							</div>
 							  	<div class="content">
 							    	<div class="tab">
