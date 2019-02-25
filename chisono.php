@@ -40,7 +40,7 @@ Da febbraio 2015 le collaborazioni, le idee e le esperienze che ho fatto in ques
                			 <div class="col-lg-6 col-sm-12">
 			   			 	<p class="testo">Io e la mia WebTheory facciamo parte di un network di aziende biellesi specializzate in ambito informatico.
 Siamo al <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a>, polo di innovazione aperto da Banca Sella a Biella, luogo in cui accadono nuove cose nel panorama tecnologico italiano.<br>
-Il nostro modo di lavorare pone al centro, le esigenze informatiche delle persone e delle aziende che si rivolgono a noi.<br>
+Il nostro modo di lavorare pone al centro le esigenze informatiche delle persone e delle aziende che si rivolgono a noi.<br>
 Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clienti, in modo che le implementazioni future abbiamo il minor impatto, economico e strutturale, possibile. Il nostro punto di forza è il rapporto di fiducia che si instaura in questo modo con chi si affida a noi.
 </p>
 

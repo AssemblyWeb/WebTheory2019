@@ -18,7 +18,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 				   				<p class="testo">A questo punto troveremo insieme la soluzione migliore per te e ti presenterò la preview grafica del sito, in modo che tu possa visualizzarne il risultato finale;</p>
 				   			</li>
 				   			<li>
-				   				<p class="testo">Ci incontriamo e pianifichiamo insieme i necessari aggiustamenti, ciò mi permetterà di partire con lo sviluppo del sito</p>
+				   				<p class="testo">Ci incontriamo e pianifichiamo insieme i necessari aggiustamenti, ciò mi permetterà di partire con lo sviluppo del sito;</p>
 				   			</li>
 				   			<li>
 				   				<p class="testo">Ti consegno la tua nuova casa digitale configurata e pronta all’uso.</p>
@@ -26,7 +26,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 						</ul>
 						<p class="testo">
 						Credo che tu debba essere autonomo nell’aggiornare il tuo sito: non voglio farti perdere tempo (e denaro) per chiedermi ad esempio di modificarti la descrizione di un prodotto del tuo sito.<br>
-Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti come modificare i contenuti in modo indipendente e semplice
+Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti come modificare i contenuti in modo indipendente e semplice.
 
 					</p>
 

@@ -118,11 +118,11 @@ Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo.
 					<div class="col-lg-6">
 						<img style="width: 100%;" src="img/netbi-plaxi-1.jpg">
 						<br></br>
-						<img  class="hidden-xs" style="width: 100%;" src="img/netbi home.jpg">
+						<img  class="hidden-xs" style="width: 100%;" src="img/netbi-home.jpg">
 					</div>
 					<div class="col-lg-6">
 						
-						<img class="hidden-xs" style="width: 100%;" src="img/netbi home 2.jpg">
+						<img class="hidden-xs" style="width: 100%;" src="img/netbi-home-2.jpg">
 						<br></br>
 						<img style="width: 100%;" src="img/netbi-team.jpg">
 					</div>

@@ -7,7 +7,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 <div class="container">
 	<div class="row">
         <div class="col-lg-6">  
-	        <h2>La soluzione a tuoi problemi</h2>  
+	        <h2>La soluzione ai tuoi problemi</h2>  
 			<p> Contattami per:
 				<ul class="testo">
 					<li><p class="testo">Riparazioni di smartphone, Pc, Mac</p></li>
@@ -90,7 +90,7 @@ Lo so, non è piacevole e ti dico una grande verità: può succedere e si può p
 Ti garantisco che nel 85% dei casi posso risolvere il problema e insegnarti come non far ammalare più il tuo computer.<br>
 Come? In 2 modi:<br>
 - Con un buon antivirus, un sistema di Backup, un'eventuale Nas.<br>
-- Se preferisci non pensarci tu, la soluzione "Pacchetti di ticket" fa per te? </p>
+- Se preferisci non pensarci tu, la soluzione "Pacchetti di ticket" fa per te! </p>
 						</div>
 						<div class="nav-item col-lg-4 col-sm-4">
 							<img src="img/consulenza%20icon.svg"><h3>A casa e in ufficio internet va malissimo. Tu puoi fare qualcosa?</h3>
