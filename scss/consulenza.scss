@@ -6,13 +6,20 @@
     border-bottom: none;
     background: url(../img/bg%20assistenza@2x.png) no-repeat top right;
 }
+
+@media(max-width:767px) {
+.content-section-e {
+    padding-top: 30px;
+    border-top: none;
+    border-bottom: none;
+    background-color: #50ecab;
+}
+}
 /* ./consulenza */
 
 /* Price Area css
 ============================================================================================ */
 .price_area{
-    background-image: url(../img/pricing-bg.png);
-    background-size: cover;
 
 }
 .price_inner{
