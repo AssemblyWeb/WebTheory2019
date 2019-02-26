@@ -122,7 +122,7 @@ Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo.
 					</div>
 					<div class="col-lg-6">
 						
-						<img class="hidden-xs" style="width: 100%;" src="img/netbi-home-2.jpg">
+						<img class="hidden-xs hidden-md" style="width: 100%;" src="img/netbi-home-2.jpg">
 						<br></br>
 						<img style="width: 100%;" src="img/netbi-team.jpg">
 					</div>

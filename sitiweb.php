@@ -48,7 +48,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<!-- prima riga -->
 		 	<div class="row rowpadding">
 			 	<!--prima slide -->
-		 		<div class="col-lg-4">
+		 		<div class="col-lg-4 col-md-6">
 		 			<a class="portfolio-item" href="https://asaheadwear.com/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
@@ -59,7 +59,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--seconda slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="https://www.oltreilgiardinonlus.it/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
@@ -70,7 +70,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--terza slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="https://www.procomvalves.it/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
@@ -84,7 +84,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<!--seconda riga -->
 		 	<div class="row rowpadding">
 			 	<!--quarta slide -->
-		 		<div class="col-lg-4">
+		 		<div class="col-lg-4 col-md-6">
 		 			<a class="portfolio-item" href="http://www.mossoverticalmille.it/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
@@ -95,7 +95,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--quinta slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="https://tantintenti.org/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
@@ -106,7 +106,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--sesta slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="http://watchyourwatch.eu/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
@@ -120,7 +120,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<!--terza riga -->
 		 	<div class="row rowpadding">
 			 	<!--settima slide -->
-		 		<div class="col-lg-4">
+		 		<div class="col-lg-4 col-md-6">
 		 			<a class="portfolio-item" href="http://alpemoncerchio.it/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
@@ -131,7 +131,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--ottava slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="http://www.bocchettosessera.it/home/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
@@ -142,7 +142,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--nona slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="http://www.presepegigantemarchetto.it/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
@@ -156,7 +156,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		 	<!--quarta riga -->
 		 	<div class="row rowpadding">
 			 	<!--decima slide -->
-		 		<div class="col-lg-4">
+		 		<div class="col-lg-4 col-md-6">
 		 			<a class="portfolio-item" href="http://www.fratinvini.it/" target="_blank">
 		 				<span class="caption">
 		 					<span class="caption-content">
@@ -167,7 +167,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--undicesima slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="http://www.teamvolley.net/" target="_blank">
 		  				<span class="caption">
 		  					<span class="caption-content">
@@ -178,7 +178,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
           		<!--dodicesima slide -->
-		  		<div class="col-lg-4">
+		  		<div class="col-lg-4 col-md-6">
 		  			<a class="portfolio-item" href="http://orti.lamalpenga.it/" target="_blank">
 		  				<span class="caption">
 		  				<span class="caption-content">
