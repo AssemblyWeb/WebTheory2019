@@ -49,18 +49,17 @@ E tu puoi saltare la coda.<br>
 					<div class="price_item">
 						<div class="price_head">
 							<h4>20 Ticket</h4>
+							<h3><span>€</span> 405</h3>
 						</div>
 						<div class="price_body">
 							<ul class="list">
-								<li><a href="#">Validità 1 Anno</a></li>
-								<li><a href="#">10 Ore di Assistenza/Consulenza*</a></li>
-								<li><a href="#"> - Oppure -</a></li>
-								<li><a href="#">8 Ore di Assistenza su siti web</a></li>
+								<li>Validità 1 Anno</li>
+								<li>10 Ore di Assistenza/Consulenza*</li>
+								<li>- Oppure -</li>
+								<li>8 Ore di Assistenza su siti web</li>
 							</ul>
-						</div>
-						<div class="price_footer">
-							<h3><span class="dlr">€</span> 405</h3>
-							<a class="primary_btn" href="#"><span>Acquista</span></a>
+							<br></br>
+							<a class="btn btn-wt" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
@@ -68,18 +67,17 @@ E tu puoi saltare la coda.<br>
 					<div class="price_item">
 						<div class="price_head">
 							<h4>30 Ticket</h4>
+							<h3><span>€</span> 600</h3>
 						</div>
 						<div class="price_body">
 							<ul class="list">
-								<li><a href="#">Validità 2 Anni</a></li>
-								<li><a href="#">15 Ore di Assistenza/Consulenza*</a></li>
-								<li><a href="#"> - Oppure -</a></li>
-								<li><a href="#">12 Ore di Assistenza su siti web</a></li>
+								<li>Validità 1 Anno</li>
+								<li>10 Ore di Assistenza/Consulenza*</li>
+								<li>- Oppure -</li>
+								<li>8 Ore di Assistenza su siti web</li>
 							</ul>
-						</div>
-						<div class="price_footer">
-							<h3><span class="dlr">€</span> 600</h3>
-							<a class="primary_btn" href="#"><span>Acquista</span></a>
+							<br></br>
+							<a class="btn btn-wt" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
@@ -87,18 +85,17 @@ E tu puoi saltare la coda.<br>
 					<div class="price_item">
 						<div class="price_head">
 							<h4>50 Ticket</h4>
+							<h3><span>€</span> 985</h3>
 						</div>
 						<div class="price_body">
 							<ul class="list">
-								<li><a href="#">Validità 2 Anni</a></li>
-								<li><a href="#">25 Ore di Assistenza/Consulenza*</a></li>
-								<li><a href="#"> - Oppure -</a></li>
-								<li><a href="#">20 Ore di Assistenza su siti web</a></li>
+								<li>Validità 1 Anno</li>
+								<li>10 Ore di Assistenza/Consulenza*</li>
+								<li>- Oppure -</li>
+								<li>8 Ore di Assistenza su siti web</li>
 							</ul>
-						</div>
-						<div class="price_footer">
-							<h3><span class="dlr">€</span> 985</h3>
-							<a class="primary_btn" href="#"><span>Acquista</span></a>
+							<br></br>
+							<a class="btn btn-wt" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>

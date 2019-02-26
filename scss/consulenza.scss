@@ -21,33 +21,37 @@
 /* Price Area css
 ============================================================================================ */
 .price_area{
-
 }
 .price_inner{
 	
 }
 .price_item{
 	text-align: center;
-	
+	color: #fff;
     border-radius: 5px;
     background: #fff;
     position: relative;
+    
     @include transition();
 	.price_head{
 		text-align: center;
-		background: #ffffff;
+		background: $price-blue;
 		padding: 35px 0px;
-		border-bottom: 1px solid #eeeeee;
 		h4{
-			font-size: 20px;
+			font-size: 38px;
 			color: $title-color;
             margin-bottom: 0px;
             font-family: $title-font;
+            color: #fff;
+		}
+		h3{
+			color: #b5cdf1;
+			font-size: 64px;
 		}
 	}
 	.price_body{
-        padding: 30px 0px;
-        background: #fff;
+        background: $price-blue;
+        padding-bottom: 35px;
         @include transition();
 		ul{
 			li{
@@ -65,7 +69,7 @@
 		}
 	}
 	.price_footer{
-        background: rgba(25, 160, 255, 0.1);
+        background: $price-blue;
 		max-width: 280px;
 		margin: 0px auto 40px;
 		border-radius: 5px;
@@ -91,7 +95,7 @@
 		}
 		
 	}
-	&:hover{
+	/*&:hover{
         background: #fcf8ff;
         border: double 2px transparent;
         border-radius: 5px;
@@ -132,7 +136,7 @@
 				color: $title-color;
 			}
 		}
-	}
+	}*/
 }
 /* End Price Area css
 ============================================================================================ */

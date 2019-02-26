@@ -18,7 +18,10 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 					<li><p class="testo">Assemblaggi di pc</p></li>
 					<li><p class="testo">Assistenza remota</p> </li>
 					<li><p class="testo">Allestimenti studi e uffici</p></li>
+					
 				</ul>
+				<p>Lo sai che ti posso aiutare anche da remoto?
+Continua a leggere e scopri come fare per usare TeamViewer insieme."</p>
 </p>
         </div>
 		<div class="col-lg-6 col-xs-12">
@@ -94,7 +97,7 @@ Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br></p>
 						<div class="col-lg-4 col-md-12">
 							<img class="icon" src="img/wifi.svg"><h3>A casa e in ufficio internet va malissimo. Tu puoi fare qualcosa?</h3>
 								<p class="textcenter">Sai che il 68,5% delle persone di 6 anni e più si è connesso alla Rete negli ultimi 12 mesi (65,3% nel 2017) mentre il 52,1% accede tutti i giorni? <br>
-(fonte Istat: <a href="https://www.istat.it/it/archivio/226240">Link</a>)
+(fonte Istat: <a href="https://www.istat.it/it/archivio/226240">Link</a>)<br>
 Io posso aiutarti a rimanere in questa maggioranza.<br>
 Se anche internet via cavo a casa tua o nelle tua azienda non prende, lo sai che possiamo valutare altre soluzioni economiche via Parabola?<br>
 Con il wireless la tua connettività non avrà più confini.<br>
