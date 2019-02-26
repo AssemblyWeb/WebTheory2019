@@ -33,7 +33,6 @@
     position: relative;
     padding-top: 35px;
     
-    @include transition();
 	.price_head{
 		text-align: center;
 		background: $price-blue;
@@ -56,12 +55,14 @@
 
 		ul{
 			li{
+				font-size: 23px;
+				font-weight: 300;
 				margin-bottom: 15px;
 			}
 		}
 	}
 	.baffo {
-		width: 7%;
+		width: 25px;
     vertical-align: baseline;
     margin-right: 15px;
 	}
