@@ -43,7 +43,7 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 		<div class="container">
 			
        		<div class="content-section-heading text-center">
-         		<h2>Ultimi progetti</h2>
+         		<h2>Ultimi siti web realizzati</h2>
 		 	</div>
 		 	<!-- prima riga -->
 		 	<div class="row rowpadding">
@@ -195,5 +195,6 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 
     
   <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+include($_SERVER['DOCUMENT_ROOT']."/includes/structures/calltoaction.php"); 
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/footer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>

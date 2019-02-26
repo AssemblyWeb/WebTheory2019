@@ -12,7 +12,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
                     <div class="intro-message">
-                        <p>SONO ERIK <br> E HO 3 SOLUZIONI<br> PER TE:</p>
+                        <p>SONO ERIK <br> E HO <br> 3 SOLUZIONI<br> PER TE:</p>
                       </div>
                 </div>
             </div>

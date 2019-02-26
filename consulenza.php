@@ -115,5 +115,6 @@ E tu puoi saltare la coda.<br>
 
     
   <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+include($_SERVER['DOCUMENT_ROOT']."/includes/structures/calltoaction.php"); 
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/footer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
