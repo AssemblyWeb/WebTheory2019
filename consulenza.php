@@ -45,7 +45,7 @@ E tu puoi saltare la coda.<br>
 	
 		<div class="container">
 			<div class="price_inner row">
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<div class="price_item">
 						<div class="price_head">
 							<h4>20 Ticket</h4>
@@ -53,17 +53,17 @@ E tu puoi saltare la coda.<br>
 						</div>
 						<div class="price_body">
 							<ul class="list">
-								<li>Validità 1 Anno</li>
-								<li>10 Ore di Assistenza/Consulenza*</li>
+								<li><img class="baffo" src="img/baffo.svg">Validità 1 Anno</li>
+								<li><img class="baffo" src="img/baffo.svg">10 Ore di Assistenza/Consulenza</li>
 								<li>- Oppure -</li>
-								<li>8 Ore di Assistenza su siti web</li>
+								<li><img class="baffo" src="img/baffo.svg">8 Ore di Assistenza su siti web</li>
 							</ul>
 							<br></br>
-							<a class="btn btn-wt" href="#"><span>Acquista</span></a>
+							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<div class="price_item">
 						<div class="price_head">
 							<h4>30 Ticket</h4>
@@ -71,17 +71,17 @@ E tu puoi saltare la coda.<br>
 						</div>
 						<div class="price_body">
 							<ul class="list">
-								<li>Validità 1 Anno</li>
-								<li>10 Ore di Assistenza/Consulenza*</li>
+								<li><img class="baffo" src="img/baffo.svg">Validità 2 Anni</li>
+								<li><img class="baffo" src="img/baffo.svg">15 Ore di Assistenza/Consulenza</li>
 								<li>- Oppure -</li>
-								<li>8 Ore di Assistenza su siti web</li>
+								<li><img class="baffo" src="img/baffo.svg">12 Ore di Assistenza su siti web</li>
 							</ul>
 							<br></br>
-							<a class="btn btn-wt" href="#"><span>Acquista</span></a>
+							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<div class="price_item">
 						<div class="price_head">
 							<h4>50 Ticket</h4>
@@ -89,13 +89,31 @@ E tu puoi saltare la coda.<br>
 						</div>
 						<div class="price_body">
 							<ul class="list">
-								<li>Validità 1 Anno</li>
-								<li>10 Ore di Assistenza/Consulenza*</li>
+								<li><img class="baffo" src="img/baffo.svg">Validità 2 Anni</li>
+								<li><img class="baffo" src="img/baffo.svg">25 Ore di Assistenza/Consulenza</li>
 								<li>- Oppure -</li>
-								<li>8 Ore di Assistenza su siti web</li>
+								<li><img class="baffo" src="img/baffo.svg">20 Ore di Assistenza su siti web</li>
 							</ul>
 							<br></br>
-							<a class="btn btn-wt" href="#"><span>Acquista</span></a>
+							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="price_item">
+						<div class="price_head">
+							<h4>80 Ticket</h4>
+							<h3><span>€</span> 1550</h3>
+						</div>
+						<div class="price_body">
+							<ul class="list">
+								<li><img class="baffo" src="img/baffo.svg">Validità 2 Anni</li>
+								<li><img class="baffo" src="img/baffo.svg">40 Ore di Assistenza/Consulenza</li>
+								<li>- Oppure -</li>
+								<li><img class="baffo" src="img/baffo.svg">32 Ore di Assistenza su siti web</li>
+							</ul>
+							<br></br>
+							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
