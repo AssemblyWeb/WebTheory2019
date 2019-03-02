@@ -58,6 +58,21 @@ Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clien
                
             </div>
             </div>
+            <div class="container">
+            	<div class="row">
+				<h1>Collaboriamo con:</h1>
+				<hr>
+            	</div>
+            	<div class="col-lg-4">
+	            	<img class="partner" src="img/logoSimoneMo.png">
+            	</div>
+            	<div class="col-lg-4">
+	            	<img class="partner" src="img/logoLaurynGrafica.jpg">
+            	</div>
+            	<div class="col-lg-4">
+	            	<img class="partner" src="img/logoPlanagy.jpg">
+            	</div>
+			</div>
         </div>    
 
         

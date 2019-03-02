@@ -189,6 +189,42 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
             		</a>
           		</div>
 		 	</div>
+		 	<!--quinta riga -->
+		 	<div class="row rowpadding">
+			 	<!--tredicesima slide -->
+		 		<div class="col-lg-4 col-md-6">
+		 			<a class="portfolio-item" href="http://portfolio.nabumbo.com/" target="_blank">
+		 				<span class="caption">
+		 					<span class="caption-content">
+		 						<h2>Portfolio Nabumbo</h2>
+		 					</span>
+		 				</span>
+		 				<img class="img-fluid" src="img/nabumbo.jpg" alt="">
+            		</a>
+          		</div>
+          		<!--undicesima slide -->
+		  		<div class="col-lg-4 col-md-6">
+		  			<a class="portfolio-item" href="http://www.imadbiella.it/" target="_blank">
+		  				<span class="caption">
+		  					<span class="caption-content">
+		  						<h2>Imad Biella</h2>
+                            </span>
+						</span>
+						<img class="img-fluid" src="img/imad.jpg" alt="">
+            		</a>
+          		</div>
+          		<!--dodicesima slide -->
+		  		<div class="col-lg-4 col-md-6">
+		  			<a class="portfolio-item" href="https://netbi.it/" target="_blank">
+		  				<span class="caption">
+		  				<span class="caption-content">
+		  					<h2>Netbi.it</h2>
+                        </span>
+						</span>
+						<img class="img-fluid" src="img/netbi-home.jpg" alt="">
+            		</a>
+          		</div>
+		 	</div>
 		</div>
  </section>
 
