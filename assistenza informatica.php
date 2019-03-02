@@ -92,7 +92,8 @@ Lo sai che spesso risolvo il problema con un disco a stato solido (SSD)? Così i
 Lo so, non è piacevole e ti dico una grande verità: può succedere e si può prevenire.<br>
 Ti garantisco che nel 85% dei casi posso risolvere il problema e insegnarti come non far ammalare più il tuo computer.<br>
 Come?<br>
-Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br></p> 
+Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br>
+</p> 
 						</div>
 						<div class="col-lg-4 col-md-12">
 							<img class="icon" src="img/wifi.svg"><h3>A casa e in ufficio internet va malissimo. Tu puoi fare qualcosa?</h3>
@@ -107,9 +108,18 @@ I tuoi figli e i tuoi collaboratori andranno più veloci e si lamenteranno meno.
 					</div>
                 </div>
             </div>
-				<h3 class="textcenter">Se preferisci non pensarci tu, la soluzione "Pacchetti di ticket" fa per te!</h3>
+            <div class="row">
+	            <div class="col-lg-3">
+	            </div>
+	            <div class="col-lg-6">
+		            <h3 class="textcenter">Se preferisci non pensarci tu, la soluzione "Pacchetti di ticket" fa per te!</h3>
 				<a href="/consulenza.php"><div class="btn btn-wt imgcenter">Scopri</div></a>
-        </div>
+
+	            </div>
+	            <div class="col-lg-3">
+	            </div>
+            </div>
+				        </div>
         <!-- /.container -->
 
    	</div>

@@ -29,10 +29,10 @@
 									<a href="/sitiweb.php">Siti Web</a>
 								</li>
 								<li>
-									<a href="/assistenza.php">Assistenza</a>
+									<a href="/assistenza%20informatica.php">Assistenza</a>
 								</li>
 								<li>
-									<a href="/consulenza.php">Consulenza</a>
+									<a href="/consulenza%20informatica.php">Consulenza</a>
 								</li>
 	  						</ul>
 	  				</li>

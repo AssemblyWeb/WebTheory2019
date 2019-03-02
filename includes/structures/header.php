@@ -18,6 +18,8 @@
 
      <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
