@@ -64,13 +64,13 @@ Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clien
 				<hr>
             	</div>
             	<div class="col-lg-4">
-	            	<img class="partner" src="img/logoSimoneMo.png">
+	            	<a href="http://www.lucerubata.it/" target="_blank"><img class="partner" src="img/logoSimoneMo.png"></a>
             	</div>
             	<div class="col-lg-4">
-	            	<img class="partner" src="img/logoLaurynGrafica.jpg">
+	            	<a href="http://lauryngrafica.com/" target="_blank"><img class="partner" src="img/logoLaurynGrafica.jpg"></a>
             	</div>
             	<div class="col-lg-4">
-	            	<img class="partner" src="img/logoPlanagy.jpg">
+	            	<a href="https://www.planagy.com/" target="_blank"><img class="partner" src="img/logoPlanagy.jpg"></a>
             	</div>
 			</div>
         </div>    
