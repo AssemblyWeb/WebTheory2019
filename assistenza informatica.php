@@ -77,17 +77,27 @@ SCARICA SUBITO TEAMVIEWER QUICK SUPPORT. </h3>
         <div class="container">
 				
             <div class="row">
-	            <h2>Le manutenzioni che mi chiedete più spesso</h2>
+	            <h2>Le manutenzioni che mi chiedete più spesso:</h2>
 				<div class="row rowpadding">
                 	<div class="col-lg-12">
-						<div class="navitem col-lg-12 col-md-12">
-							<img class="icon" src="img/ssd-storage.svg"><h3>"Il mio pc è lentissimo. Mi aiuti?"</h3>
+						<div class="col-lg-10 col-md-12">
+							<h3>"Il mio pc è lentissimo. Mi aiuti?"</h3>
 								<p>Lo sai che almeno 3 volte a settimana mi viene fatta questa domanda? <br>
 Il mio consiglio non è quasi mai di sostituire il computer con una spesa importante, bensì di lavorare sulle ottimizzazioni di quello già in tuo possesso.<br>
 Lo sai che spesso risolvo il problema con un disco a stato solido (SSD)? Così il tuo computer torna a volare. </p>
 						</div>
-						<div class="col-lg-12 col-md-12">
-							<img class="icon" src="img/computer-virus.svg"><h3>"Temo di aver preso un virus.."</h3>
+						<div class="col-lg-2">
+							<img class="icon" src="img/ssd-storage.svg">
+						</div>
+                	</div>
+                	
+                	<div class="col-lg-12">
+	                	<div class="col-lg-2">
+							<img class="icon" src="img/computer-virus.svg">
+						</div>
+						
+						<div class="col-lg-10 col-md-12">
+							<h3>"Temo di aver preso un virus.."</h3>
 								<p>È la paura di molti di voi che vi rivolgete a me. <br>
 Lo so, non è piacevole e ti dico una grande verità: può succedere e si può prevenire.<br>
 Ti garantisco che nel 85% dei casi posso risolvere il problema e insegnarti come non far ammalare più il tuo computer.<br>
@@ -95,9 +105,11 @@ Come?<br>
 Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br>
 </p> 
 						</div>
-						<div class="col-lg-12 col-md-12">
-							<img class="icon" src="img/wifi.svg"><h3>A casa e in ufficio internet va malissimo. Tu puoi fare qualcosa?</h3>
-								<p>Sai che il 68,5% delle persone di 6 anni e più si è connesso alla Rete negli ultimi 12 mesi (65,3% nel 2017) mentre il 52,1% accede tutti i giorni? <br>
+                	</div>
+                	<div class="col-lg-12">
+						<div class="col-lg-10 col-md-12">
+							<h3>A casa e in ufficio internet va malissimo. Tu puoi fare qualcosa?</h3>
+								<p>Sai che il 68,5% delle persone di 6 anni e più si è connesso alla Rete negli ultimi 12 mesi (65,3% nel 2017) mentre il 52,1% accede tutti i giorni? 
 (fonte Istat: <a href="https://www.istat.it/it/archivio/226240">Link</a>)<br>
 Io posso aiutarti a rimanere in questa maggioranza.<br>
 Se anche internet via cavo a casa tua o nelle tua azienda non prende, lo sai che possiamo valutare altre soluzioni economiche via Parabola?<br>
@@ -105,6 +117,9 @@ Con il wireless la tua connettività non avrà più confini.<br>
 Il tuo portafoglio ringrazierà.<br>
 I tuoi figli e i tuoi collaboratori andranno più veloci e si lamenteranno meno. </p>
 						</div>	
+						<div class="col-lg-2">
+							<img class="icon" src="img/wifi.svg">
+						</div>
 					</div>
                 </div>
             </div>

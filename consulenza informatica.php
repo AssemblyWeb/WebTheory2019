@@ -59,7 +59,6 @@ E tu puoi saltare la coda.<br>
 								<li><img class="baffo" src="img/baffo.svg">8 Ore di Assistenza su siti web</li>
 							</ul>
 							<br></br>
-							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
@@ -77,7 +76,6 @@ E tu puoi saltare la coda.<br>
 								<li><img class="baffo" src="img/baffo.svg">12 Ore di Assistenza su siti web</li>
 							</ul>
 							<br></br>
-							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
@@ -95,7 +93,6 @@ E tu puoi saltare la coda.<br>
 								<li><img class="baffo" src="img/baffo.svg">20 Ore di Assistenza su siti web</li>
 							</ul>
 							<br></br>
-							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
@@ -113,7 +110,6 @@ E tu puoi saltare la coda.<br>
 								<li><img class="baffo" src="img/baffo.svg">32 Ore di Assistenza su siti web</li>
 							</ul>
 							<br></br>
-							<a class="btn btn-wt-price" href="#"><span>Acquista</span></a>
 						</div>
 					</div>
 				</div>
