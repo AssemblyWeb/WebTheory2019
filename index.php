@@ -59,7 +59,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 Ciò vuol dire che non ti proporrò mai una funzionalità o una pagina “perché lo fanno tutti”. <br>
 Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serve A TE. 
 												</p>
-												<a href="sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
+												<a href="/sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
 									</div>
 									<div class="tab">
@@ -72,7 +72,7 @@ Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serv
 Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le aziende.
 
 												</p>
-												<div class="btn btn-wt">Scopri</div>
+												<a href="/assistenza%20informatica.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
 							    	</div>
 									<div class="tab">
@@ -85,7 +85,7 @@ Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le 
 Sono convinto che in ambito informatico ci sia sempre una soluzione, anzi spesso ce n’è più di una e insieme risolveremo il tuo problema, con una grande attenzione al budget.
 	
 												</p>
-												<div class="btn btn-wt">Scopri</div>
+												<a href="consulenza%20informatica.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
 							    	</div>
   								</div>
