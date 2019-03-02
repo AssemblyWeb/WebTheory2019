@@ -18,6 +18,7 @@
 
      <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+      <link rel="icon" href="img/favicon.png" type="image/x-icon">
     
     <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
 
