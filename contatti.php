@@ -1,22 +1,16 @@
-<?php /* ########################################## INCLUDE - INIZIO ################################################## */
-
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
-
 <?php
-include_once('include/class.phpmailer.php');
-include_once('include/validazione.php');
+include_once('includes/mailer/class.phpmailer.php');
+include_once('includes/mailer/validazione.php');
 
 if(isset($_GET['send']) and ($_GET['send']=='1')) {
 
     $mittente=(trim($_POST['email']));
     $nome=(trim($_POST['nome']));
-    $cognome=(trim($_POST['cognome']));
     $nomemittente=($cognome.' '.$nome);
     $telefono=(trim($_POST['telefono']));
     $oggettoemail="Nuovo Messaggio Ricevuto dal form Contatti WebTheory";
     $testoalternativo="Nuovo Messaggio Ricevuto da Sito WebTheory";
-    $destinatario="webmaster@webtheory.it";
+    $destinatario="info@webtheory.it";
     $messaggio=(trim($_POST['text']));
 
     // INIZIO VALIDAZIONE
@@ -37,16 +31,10 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
     	$validazione_errore .= "Errore nella Email<br>";
    	endif;
 
-   	// Controllo Cognome
-    if ((validations_richiesto($cognome) == FALSE)) :
-    	$validazione = FALSE;
-    	$validazione_errore .= "Errore nel Cognome<br>";
-   	endif;
-
-   	// Controllo Messaggio
+   	Controllo Messaggio
     if ((validations_richiesto($messaggio) == FALSE) or (validations_lunghezza(3, 600, $messaggio) == FALSE)) :
     	$validazione = FALSE;
-    	$validazione_errore .= "Errore nel Messaggio<br>";
+    	$validazione_errore .= "Errore, il messaggio non può essere vuoto!<br>";
    	endif;
 
 
@@ -68,6 +56,9 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
 	}
 }
 ?>
+<?php /* ########################################## INCLUDE - INIZIO ################################################## */
+include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
+include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
  <div class="container sezionecontatti">
             <div class="row rowpadding">
@@ -146,9 +137,50 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
                 </div>
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 col-sm-12">
-<?php /* ########################################## INCLUDE - INIZIO ################################################## */
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/form.php");
-/* ################################################ INCLUDE - FINE ################################################# */ ?>
+
+		<?php
+                        if (isset($validazione) and ($validazione == FALSE)) {
+                            echo ' <div class="alert alert-danger fade in">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>'.'<strong>ERRORE!</strong><br>'.' '. $validazione_errore . '</div>';
+                        }
+                        ?>
+
+                      <?php 
+                        if(isset($_GET['ok'])) { ?> 
+                            <div class="alert alert-success fade in">
+                                <a href="contatti.php" class="close" data-dismiss="alert">&times;</a>
+                                <h3>Messaggio inviato con successo!</h3>
+                            </div>
+                        
+                        <br /><br /><br /><br /><br /><br />
+
+                <?php }
+                if(!isset($_GET['ok'])) { ?>
+
+				
+				<form  class="popup-form"  method="post" action="contatti.php?send=1">
+					<h4>Come ti chiamo quando ti saluterò per risponderti?</h4>
+					<input type="text" class="form-control form-white" placeholder="Nome e Cognome" name="nome" value="<?php if (isset($nome)) echo $nome;?>">
+					<h4>A quale email posso scriverti?</h4>
+					<input type="text" class="form-control form-white" placeholder="Indirizzo E-mail" name="email" value="<?php if (isset($email)) echo $email;?>">
+					<h4>A quale numero di telefono posso telefonarti?</h4>
+					<input type="text" class="form-control form-white"  placeholder="Telefono" name="telefono" required="required" value="<?php if (isset($telefono)) echo $telefono;?>">
+					<div class="checkbox-holder text-left">
+						<h4>Come posso aiutarti?</h4>
+						 <textarea class="form-control" placeholder="testo" rows="5"  name="messaggio" value="<?php if (isset($messaggio)) echo $messaggio;?>"></textarea>
+						
+						<div class="checkbox col-lg-12 ">
+							 <div class="col-lg-12">
+							 	<input type="checkbox" value="true" id="squaredOne" name="privacy" required="required"/>
+
+							 	<label for="squaredOne"><span>Ho letto e acconsento a <strong>Termini &amp; Condizioni</strong></span></label>
+							 	</div>
+						</div>
+					</div>
+					  <button type="submit" class="btn btn-default btn-wt" value="Send" style="margin-top: 10px;">Invia</button>
+				</form>
+				 <?php } ?>
+
                 </div>
                 <div class="col-lg-3 "></div>
                 <div class="row rowpadding"></div>

@@ -1,91 +1,24 @@
-<?php
-include_once('include/class.phpmailer.php');
-include_once('include/validazione.php');
-
-if(isset($_GET['send']) and ($_GET['send']=='1')) {
-
-    $mittente=(trim($_POST['email']));
-    $nome=(trim($_POST['nome']));
-    $cognome=(trim($_POST['cognome']));
-    $nomemittente=($cognome.' '.$nome);
-    $telefono=(trim($_POST['telefono']));
-    $oggettoemail="Nuovo Messaggio Ricevuto dal form Contatti WebTheory";
-    $testoalternativo="Nuovo Messaggio Ricevuto da Sito WebTheory";
-    $destinatario="info@webtheory.it";
-    $messaggio=(trim($_POST['text']));
-
-    // INIZIO VALIDAZIONE
-    $validazione = TRUE;
-    $validazione_errore = "";
-
-   
-
-   	// Controllo Nome
-    if ((validations_richiesto($nome) == FALSE)) :
-    	$validazione = FALSE;
-    	$validazione_errore .= "Errore nel Nome<br>";
-   	endif;
-
- // Controllo Email
-    if ((validations_richiesto($mittente) == FALSE) or (validations_email($mittente) == FALSE)) :
-    	$validazione = FALSE;
-    	$validazione_errore .= "Errore nella Email<br>";
-   	endif;
-
-   	// Controllo Cognome
-    if ((validations_richiesto($cognome) == FALSE)) :
-    	$validazione = FALSE;
-    	$validazione_errore .= "Errore nel Cognome<br>";
-   	endif;
-
-   	// Controllo Messaggio
-    if ((validations_richiesto($messaggio) == FALSE) or (validations_lunghezza(3, 600, $messaggio) == FALSE)) :
-    	$validazione = FALSE;
-    	$validazione_errore .= "Errore nel Messaggio<br>";
-   	endif;
-
-
-    if ($validazione) {
-	    $mail             = new PHPMailer(); //chiamata per creare l'email
-	    $body             = "<p>Mittente: ".$nomemittente. "</p>"."<p>Numero di telefono: ".$telefono."<p>Messaggio: ".$messaggio."</p>"; 
-	    //mail->getFile("include/mails/user_reg.php"); 
-	    //$body             = eregi_replace("[\]",'',$body);
-	    $mail->From       = $mittente;
-	    $mail->FromName   = $nomemittente;
-	    $mail->Subject    = $oggettoemail;
-	    $mail->AltBody    = $testoalternativo;
-	    $mail->MsgHTML($body);
-	    $mail->AddAddress($destinatario, "WebTheory");
-	    //$mail->AddAttachment("images/phpmailer.gif"); 
-	    $_SESSION=array();
-	    if(!$mail->Send()) { echo "Mailer Error: " . $mail->ErrorInfo; } 
-	    else { header("location:contact.php?ok=1"); }
-	}
-}
-?>
-
-		     
-		            <?php
+		<?php
                         if (isset($validazione) and ($validazione == FALSE)) {
                             echo ' <div class="alert alert-danger fade in">
         <a href="#" class="close" data-dismiss="alert">&times;</a>'.'<strong>ERRORE!</strong><br>'.' '. $validazione_errore . '</div>';
                         }
                         ?>
 
-                        <?php
-                        if(isset($_GET['ok'])) { ?>
+                      <?php 
+                        if(isset($_GET['ok'])) { ?> 
                             <div class="alert alert-success fade in">
-                                <a href="Thankyoupage.php" class="close" data-dismiss="alert">&times;</a>
+                                <a href="contatti.php" class="close" data-dismiss="alert">&times;</a>
                                 <h3>Messaggio inviato con successo!</h3>
                             </div>
-
+                        
                         <br /><br /><br /><br /><br /><br />
 
                 <?php }
                 if(!isset($_GET['ok'])) { ?>
 
 				
-				<form  class="popup-form"  method="post" action="form.php?send=1">
+				<form  class="popup-form"  method="post" action="contatti.php?send=1">
 					<h4>Come ti chiamo quando ti saluterò per risponderti?</h4>
 					<input type="text" class="form-control form-white" placeholder="Nome e Cognome" name="nome" value="<?php if (isset($nome)) echo $nome;?>">
 					<h4>A quale email posso scriverti?</h4>
