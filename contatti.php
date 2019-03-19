@@ -6,7 +6,6 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
 
     $mittente=(trim($_POST['email']));
     $nome=(trim($_POST['nome']));
-    $nomemittente=($cognome.' '.$nome);
     $telefono=(trim($_POST['telefono']));
     $oggettoemail="Nuovo Messaggio Ricevuto dal form Contatti WebTheory";
     $testoalternativo="Nuovo Messaggio Ricevuto da Sito WebTheory";
