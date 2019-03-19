@@ -32,7 +32,7 @@
 									<a href="/assistenza%20informatica.php">Assistenza</a>
 								</li>
 								<li>
-									<a href="/consulenza%20informatica.php">Consulenza</a>
+									<a href="/consulenza%20informatica%20a%20Biella.php">Consulenza</a>
 								</li>
 	  						</ul>
 	  				</li>

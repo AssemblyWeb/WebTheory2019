@@ -11,7 +11,7 @@
     
    
 
-    <title>Web Theory un mondo di servizi informatici per te</title>
+    <title><?php echo $title; ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">

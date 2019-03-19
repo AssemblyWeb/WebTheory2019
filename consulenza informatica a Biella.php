@@ -1,6 +1,8 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
+$title = 'Consulenza Informatica per aziende e privati a Biella - WebTheory.it'; 
+
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
         <div class="container">
