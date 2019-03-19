@@ -85,7 +85,7 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
                 if(!isset($_GET['ok'])) { ?>
 
 				
-				<form  class="popup-form"  method="post" action="index.php?send=1">
+				<form  class="popup-form"  method="post" action="form.php?send=1">
 					<h4>Come ti chiamo quando ti saluterò per risponderti?</h4>
 					<input type="text" class="form-control form-white" placeholder="Nome e Cognome" name="nome" value="<?php if (isset($nome)) echo $nome;?>">
 					<h4>A quale email posso scriverti?</h4>
