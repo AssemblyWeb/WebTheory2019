@@ -1,7 +1,73 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/mailer.php");
+
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
+
+<?php
+include_once('include/class.phpmailer.php');
+include_once('include/validazione.php');
+
+if(isset($_GET['send']) and ($_GET['send']=='1')) {
+
+    $mittente=(trim($_POST['email']));
+    $nome=(trim($_POST['nome']));
+    $cognome=(trim($_POST['cognome']));
+    $nomemittente=($cognome.' '.$nome);
+    $telefono=(trim($_POST['telefono']));
+    $oggettoemail="Nuovo Messaggio Ricevuto dal form Contatti WebTheory";
+    $testoalternativo="Nuovo Messaggio Ricevuto da Sito WebTheory";
+    $destinatario="webmaster@webtheory.it";
+    $messaggio=(trim($_POST['text']));
+
+    // INIZIO VALIDAZIONE
+    $validazione = TRUE;
+    $validazione_errore = "";
+
+   
+
+   	// Controllo Nome
+    if ((validations_richiesto($nome) == FALSE)) :
+    	$validazione = FALSE;
+    	$validazione_errore .= "Errore nel Nome<br>";
+   	endif;
+
+ // Controllo Email
+    if ((validations_richiesto($mittente) == FALSE) or (validations_email($mittente) == FALSE)) :
+    	$validazione = FALSE;
+    	$validazione_errore .= "Errore nella Email<br>";
+   	endif;
+
+   	// Controllo Cognome
+    if ((validations_richiesto($cognome) == FALSE)) :
+    	$validazione = FALSE;
+    	$validazione_errore .= "Errore nel Cognome<br>";
+   	endif;
+
+   	// Controllo Messaggio
+    if ((validations_richiesto($messaggio) == FALSE) or (validations_lunghezza(3, 600, $messaggio) == FALSE)) :
+    	$validazione = FALSE;
+    	$validazione_errore .= "Errore nel Messaggio<br>";
+   	endif;
+
+
+    if ($validazione) {
+	    $mail             = new PHPMailer(); //chiamata per creare l'email
+	    $body             = "<p>Mittente: ".$nomemittente. "</p>"."<p>Numero di telefono: ".$telefono."<p>Messaggio: ".$messaggio."</p>"; 
+	    //mail->getFile("include/mails/user_reg.php"); 
+	    //$body             = eregi_replace("[\]",'',$body);
+	    $mail->From       = $mittente;
+	    $mail->FromName   = $nomemittente;
+	    $mail->Subject    = $oggettoemail;
+	    $mail->AltBody    = $testoalternativo;
+	    $mail->MsgHTML($body);
+	    $mail->AddAddress($destinatario, "WebTheory");
+	    //$mail->AddAttachment("images/phpmailer.gif"); 
+	    $_SESSION=array();
+	    if(!$mail->Send()) { echo "Mailer Error: " . $mail->ErrorInfo; } 
+	    else { header("location:contatti.php?ok=1"); }
+	}
+}
+?>
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
  <div class="container sezionecontatti">
             <div class="row rowpadding">
@@ -80,7 +146,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
                 </div>
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6 col-sm-12">
-					 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+<?php /* ########################################## INCLUDE - INIZIO ################################################## */
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/form.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
                 </div>
