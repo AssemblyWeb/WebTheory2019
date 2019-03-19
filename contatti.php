@@ -31,7 +31,7 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
     	$validazione_errore .= "Errore nella Email<br>";
    	endif;
 
-   	Controllo Messaggio
+   	// Controllo Messaggio
     if ((validations_richiesto($messaggio) == FALSE) or (validations_lunghezza(3, 600, $messaggio) == FALSE)) :
     	$validazione = FALSE;
     	$validazione_errore .= "Errore, il messaggio non può essere vuoto!<br>";
@@ -167,7 +167,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 					<input type="text" class="form-control form-white"  placeholder="Telefono" name="telefono" required="required" value="<?php if (isset($telefono)) echo $telefono;?>">
 					<div class="checkbox-holder text-left">
 						<h4>Come posso aiutarti?</h4>
-						 <textarea class="form-control" placeholder="testo" rows="5"  name="messaggio" value="<?php if (isset($messaggio)) echo $messaggio;?>"></textarea>
+						 <textarea class="form-control" placeholder="testo" rows="5" id="comment" name="messaggio" value="<?php if (isset($messaggio)) echo $messaggio;?>"></textarea>
 						
 						<div class="checkbox col-lg-12 ">
 							 <div class="col-lg-12">
