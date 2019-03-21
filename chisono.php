@@ -1,4 +1,6 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+$title="Mi presento mi chiamo Erik Alessandro Martinez - WebTheory.it";
+$excerpt="Mi chiamo Erik Martinez, sono specializzato in assistenza e consulenza informatica e siti web. Il mio progetto si chiama Web Theory. Scopri tutto sulla mia storia!";
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
@@ -13,6 +15,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
                 <!-- /.immagine foto chi sono -->
                 <!-- testo chi sono -->
                 <div class="col-lg-6 col-sm-12">
+	                
 	                <h2 class="blu">#ErikRisolve</h2>
 	                <p>Nell’aprile del 2013 ho fatto una scommessa sul mio futuro e ho creato un gruppo di lavoro focalizzato sui temi del web e dell’informatica, in grado di fornire ai propri clienti molteplici servizi e benefici. <br>
 Il mio progetto si chiama <strong>Web Theory</strong> e credo che un cliente pienamente soddisfatto sia poi felice di tornare, la tua soddisfazione è quello su cui lavoro tutti i giorni. <br>
@@ -20,6 +23,7 @@ Io e i miei partner vogliamo rispondere nel modo migliore alle esigenze delle pe
 Le collaborazioni sono la colonna portante di questo progetto che, non a caso, ho deciso di far nascere all’interno di <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a> che per me è stato un perfetto incubatore da cui trarre nuova energia e spunti di crescita. <br>
 Da febbraio 2015 le collaborazioni, le idee e le esperienze che ho fatto in questo luogo mi permettono di affrontare ogni giorno il mio lavoro con entusiasmo e passione.
  </p>
+ <h3>Cosa faccio in breve? <br> Sono specializzato in assistenza e consulenza informatica e siti web</h3>
 
                 </div>
                 <!-- /.testo chi sono -->

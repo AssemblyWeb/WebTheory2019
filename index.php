@@ -61,7 +61,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 Ciò vuol dire che non ti proporrò mai una funzionalità o una pagina “perché lo fanno tutti”. <br>
 Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serve A TE. 
 												</p>
-												<a href="/sitiweb.php"><div class="btn btn-wt">Scopri</div></a>
+												<a href="/realizzazione-siti-web-e-commerce-biella.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
 									</div>
 									<div class="tab">

@@ -1,11 +1,13 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+$title="Realizzazione siti web ed e-commerce Biella - WebTheory.it";
+$excerpt="Realizzo siti web ed siti e-commerce su misura per la tua azienda. Dai slancio al tuo business con le vendite online. Scopri tutte le opportunità a disposizione.";
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
  	<div class="container">
 		<div class="row">
-	            
+	            <h2>Realizzazione siti web e commerce: </h2>
 	            <!-- testo netbi -->
 				<div class="col-lg-12 col-sm-12">
 			   		<p class="testo">
