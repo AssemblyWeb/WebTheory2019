@@ -39,7 +39,7 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
 
     if ($validazione) {
 	    $mail             = new PHPMailer(); //chiamata per creare l'email
-	    $body             = "<p>Mittente: ".$nomemittente. "</p>"."<p>Numero di telefono: ".$telefono."<p>Messaggio: ".$messaggio."</p>"; 
+	    $body             = "<p>Mittente: ".$mittente. "</p>"."<p>Nome: ".$nome. "</p>"."<p>Numero di telefono: ".$telefono."<p>Messaggio: ".$messaggio."</p>"; 
 	    //mail->getFile("include/mails/user_reg.php"); 
 	    //$body             = eregi_replace("[\]",'',$body);
 	    $mail->From       = $mittente;
