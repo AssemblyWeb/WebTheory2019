@@ -56,7 +56,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 											<img class="homebanner" src="img/siti-internet.jpg">
 										</div>
 										<div class="col-lg-6 col-sm-12">
-											<h3 class="nomargin">Siti Web</h3>
+											<h3 class="nomargin">Siti Web ed e-commerce a Biella</h3>
 												<p>Realizzo siti internet su misura per il tuo business. <br>
 Ciò vuol dire che non ti proporrò mai una funzionalità o una pagina “perché lo fanno tutti”. <br>
 Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serve A TE. 
@@ -69,7 +69,7 @@ Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serv
 											<img class="homebanner" src="img/riparazioni.jpg">
 										</div>
 										<div class="col-lg-6">
-											<h3 class="nomargin">Assistenza</h3>
+											<h3 class="nomargin">Assistenza informatica</h3>
 												<p>Credo che sia importantissimo poter sfruttare al meglio la tecnologia, sia a casa che in ufficio.<br>
 Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le aziende.
 
@@ -82,7 +82,7 @@ Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le 
 											<img class="homebanner" src="img/assistenza.jpg">
 										</div>
 										<div class="col-lg-6">
-											<h3 class="nomargin">Consulenza</h3>
+											<h3 class="nomargin">Consulenza infomatica</h3>
 												<p>Hai un dubbio? Un problema che ti assilla? Ti serve un consiglio o hai una perplessità che potrebbe essere risolvibile con una miniconsulenza telefonica da 30 minuti? <br>
 Sono convinto che in ambito informatico ci sia sempre una soluzione, anzi spesso ce n’è più di una e insieme risolveremo il tuo problema, con una grande attenzione al budget.
 	
