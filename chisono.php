@@ -9,8 +9,8 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
             <div class="row">
 	            <!--immagine foto chi sono -->
                 <div class="col-lg-6 col-sm-12">
-	                <img src="/img/Erik-Chi-siamo@2x.jpg" class="profilephoto"> 
-
+	                <img src="/img/Erik-Chi-siamo@2x.jpg" class="profilephoto"> <br>
+					 <h3>Cosa faccio in breve? <br></br> Sono specializzato in assistenza e consulenza informatica e siti web.</h3>
                 </div>
                 <!-- /.immagine foto chi sono -->
                 <!-- testo chi sono -->
@@ -23,7 +23,7 @@ Io e i miei partner vogliamo rispondere nel modo migliore alle esigenze delle pe
 Le collaborazioni sono la colonna portante di questo progetto che, non a caso, ho deciso di far nascere all’interno di <a href="https://sellalab.com/" target="_blank"><strong class="blu">SellaLab</strong></a> che per me è stato un perfetto incubatore da cui trarre nuova energia e spunti di crescita. <br>
 Da febbraio 2015 le collaborazioni, le idee e le esperienze che ho fatto in questo luogo mi permettono di affrontare ogni giorno il mio lavoro con entusiasmo e passione.
  </p>
- <h3>Cosa faccio in breve? <br> Sono specializzato in assistenza e consulenza informatica e siti web</h3>
+
 
                 </div>
                 <!-- /.testo chi sono -->
