@@ -1,4 +1,5 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+$title="Assistenza e consulenza Informatica, siti web a Biella - WebTheory.it";
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
