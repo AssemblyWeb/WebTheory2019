@@ -1,5 +1,6 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 $title="Assistenza e consulenza Informatica, siti web a Biella - WebTheory.it";
+$excerpt;="Assistenza e consulenza Informatica, siti web ed ecoomerce a Biella, Cossato e provincia. WebTheroy è la soluzione ideale!";
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
