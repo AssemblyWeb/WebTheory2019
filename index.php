@@ -61,7 +61,7 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 Ciò vuol dire che non ti proporrò mai una funzionalità o una pagina “perché lo fanno tutti”. <br>
 Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serve A TE. 
 												</p>
-												<a href="/realizzazione%20siti%20web%20e-commerce%20biella.php"><div class="btn btn-wt">Scopri</div></a>
+												<a href="/realizzazione-siti-web-e-commerce-biella.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
 									</div>
 									<div class="tab">
@@ -74,7 +74,7 @@ Tutto quello che decideremo di comunicare tramite il tuo sito sarà perché serv
 Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le aziende.
 
 												</p>
-												<a href="/assistenza%20informatica%20a%20Biella.php"><div class="btn btn-wt">Scopri</div></a>
+												<a href="/assistenza-informatica-a-Biella.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
 							    	</div>
 									<div class="tab">
@@ -87,7 +87,7 @@ Per questo ho delle soluzioni ad hoc per i privati ed altre pensate solo per le 
 Sono convinto che in ambito informatico ci sia sempre una soluzione, anzi spesso ce n’è più di una e insieme risolveremo il tuo problema, con una grande attenzione al budget.
 	
 												</p>
-												<a href="/consulenza%20informatica%20a%20Biella.php"><div class="btn btn-wt">Scopri</div></a>
+												<a href="/consulenza-informatica-a-Biella.php"><div class="btn btn-wt">Scopri</div></a>
 										</div>
 							    	</div>
   								</div>
