@@ -17,13 +17,13 @@
 							</li>
 							
 							<li>
-								<a href="/assistenza%20informatica%20a%20Biella.php"><h3>Assistenza</h3></a>
+								<a href="/assistenza-informatica-a-Biella.php"><h3>Assistenza</h3></a>
 							</li>
 							<li>
-								<a href="/consulenza%20informatica%20a%20Biella.php"><h3>Consulenza</h3></a>
+								<a href="/consulenza-informatica-a-Biella.php"><h3>Consulenza</h3></a>
 							</li>
 							<li>
-								<a href="/realizzazione%20siti%20web%20e-commerce%20biella.php"><h3>Siti Web</h3></a>
+								<a href="/realizzazione-siti-web-e-commerce-biella.php"><h3>Siti Web</h3></a>
 							</li>
 								
 							</li>

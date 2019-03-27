@@ -26,13 +26,13 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servizi<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="/realizzazione%20siti%20web%20e-commerce%20biella.php">Siti Web</a>
+									<a href="/realizzazione-siti-web-e-commerce-biella.php">Siti Web</a>
 								</li>
 								<li>
-									<a href="/assistenza%20informatica%20a%20Biella.php">Assistenza</a>
+									<a href="/assistenza-informatica-a-Biella.php">Assistenza</a>
 								</li>
 								<li>
-									<a href="/consulenza%20informatica%20a%20Biella.php">Consulenza</a>
+									<a href="/consulenza-informatica-a-Biella.php">Consulenza</a>
 								</li>
 	  						</ul>
 	  				</li>
