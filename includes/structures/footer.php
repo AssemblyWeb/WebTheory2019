@@ -36,9 +36,9 @@
                 
             </div>
             	<hr>
-				<p class="copyright text-muted small">Copyright &copy; WebTheory di Erik Alessandro Martinez / Via Cavalieri di Vittorio Veneto, 29 - 13825 Loc. Valle Mosso - Valdilana (BI) / P.I.02534470022<br> #Noanimaltestingcode </p>
+				<p class="copyright text-muted small">Copyright &copy; WebTheory di Erik Alessandro Martinez / Via Cavalieri di Vittorio Veneto, 29 - 13825 Loc. Valle Mosso - Valdilana (BI) / P.I.02534470022<br> <a href="/privacy-policy.php"> Privacy Policy</a> </p>
 				
-        </div>
+        </div>        
     </footer>
 
     <!-- jQuery -->
@@ -46,6 +46,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
 
 
 </html>

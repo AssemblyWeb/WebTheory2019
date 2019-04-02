@@ -22,3 +22,198 @@ p.copyright {
 }
 
 /*Fine Footer*/
+
+/*CookieBar*/
+
+$cookieBar-padding: 1rem 2rem;
+
+$cookieBar-text-size: 14px;
+$cookieBar-text-color: #fff;
+
+$cookieBar-button-bg: #50289b;
+$cookieBar-button-radius: 6px;
+$cookieBar-button-spacing: 0 1rem;
+
+#cookieBar.cookieBar {
+  z-index: 999;
+  position: fixed;
+  font-size: $cookieBar-text-size;
+  color: $cookieBar-text-color;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  
+  // CookieBar positions
+  &[data-cookiebar-position="top"] {
+    top: -100px;
+    
+    &[data-cookiebar-active="true"] {
+      top: 0;
+    }
+  }
+  
+  &[data-cookiebar-position="bottom"] {
+    bottom: -100px;
+    
+     &[data-cookiebar-active="true"] {
+      bottom: 0;
+    }
+  }
+  
+  // CookieBar styles
+  &[data-cookiebar-style="basic"] {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  // CookieBar content
+  .cookieBar-content {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    padding: $cookieBar-padding;
+    justify-content: center;
+    
+    p {
+      margin: 0;
+      padding: 0;
+      
+      a {
+        color: $cookieBar-text-color;
+      }
+    }
+    
+    button {
+      border: none;
+      cursor: pointer;
+      outline: none;
+      margin: $cookieBar-button-spacing;
+      border-radius: $cookieBar-button-radius;
+      font-size: $cookieBar-text-size;
+      padding: $cookieBar-padding;
+      color: $cookieBar-text-color;
+      background: $cookieBar-button-bg;
+      
+      &:hover {
+        background: darken($cookieBar-button-bg, 10%);
+        -webkit-animation: heartbeat 1s ease-in-out 0s 5 both;
+	              animation: heartbeat 1s ease-in-out 0s 5 both;
+      }
+    }
+  }
+  
+  &[data-cookiebar-style="medium"] {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 1rem 2rem;
+    border: 1px solid rgba(0, 0, 0, .34);
+    background: rgba(255, 255, 255, 0.95);
+    
+    &[data-cookiebar-position="top"] {
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    &[data-cookiebar-position="bottom"] {
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+    
+    .cookieBar-content {
+      padding: 0;
+      justify-content: space-between;
+      color: rgba(0, 0, 0, .54);
+      
+      p {
+        padding-right: 1rem;
+        
+        a {
+          color: inherit;
+        }
+      }
+      
+      button {
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+/**
+ * ----------------------------------------
+ * Animation Heartbeat
+ * ----------------------------------------
+ */
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}

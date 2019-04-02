@@ -2315,3 +2315,71 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+const cookieBarName = "cookieBar";
+const cookieBar     = document.querySelector('#'+cookieBarName);
+
+// Removal from the dom
+_removeCookiebar = (wait) => {
+  if (wait) {
+    setTimeout(function() {
+      _removeCookiebar();
+    }, 500);
+  } else {
+    cookieBar.parentNode.removeChild(cookieBar);
+  }
+}
+
+// Check if the cookiebar has been accepted
+if (document.cookie.match('(^|;) ?' + cookieBarName + '=([^;]*)(;|$)') || localStorage.getItem(cookieBarName)) {
+    
+    if (localStorage.getItem(cookieBarName)) {
+      const data = JSON.parse(localStorage.getItem(cookieBarName));
+
+       
+      if (data.expires < new Date()) {
+        console.log('Past');
+      } else {
+        console.log('Now');
+      }
+      
+    } else {
+      _removeCookiebar();
+    }
+}
+
+// Event Listener for the button
+const cookieBarButton = document.querySelector('#'+cookieBarName +' button');
+if (cookieBarButton !== null) {
+  cookieBarButton.addEventListener('click', function(e) {
+
+    let storageDate = new Date();
+        storageDate.setDate(storageDate.getDate() + 7);
+
+    if (typeof Storage !== "undefined") {
+        // Use localstorage
+        localStorage.setItem(cookieBarName, JSON.stringify( {value: true, expires: storageDate} ));
+    } else {
+        // Use cookies  
+        document.cookie = cookieBarName + "=" + true +"; expires=" + storageDate + "; path=/";
+    }
+
+    // Set the state to false and remove
+    cookieBar.dataset.cookiebarActive = false;
+    _removeCookiebar(1);
+
+  });
+}
+
+
+
+document.querySelector('#'+cookieBarName +' button').addEventListener('click', function(e) {
+    const data = JSON.parse(localStorage.getItem(cookieBarName));
+       
+      if (Date.parse(data.expires) < Date.parse(new Date())) {
+        console.log('Past---');
+      } else {
+        console.log('Now---');
+      }
+
+});
