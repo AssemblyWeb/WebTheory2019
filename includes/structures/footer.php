@@ -13,10 +13,6 @@
 				   	 	<ul class="list-inline">
 							
 							<li>
-                            	<a href="/chisono.php"><h3>Chi sono</h3></a>
-							</li>
-							
-							<li>
 								<a href="/assistenza-informatica-a-Biella.php"><h3>Assistenza</h3></a>
 							</li>
 							<li>
@@ -25,9 +21,9 @@
 							<li>
 								<a href="/realizzazione-siti-web-e-commerce-biella.php"><h3>Siti Web</h3></a>
 							</li>
-								
+							<li>
+								<a href="/Allestimento-reti-internet-per-Casa-Uffici-Biella.php"><h3>Connettività</h3>
 							</li>
-							
 							<li>
                             	<a href="/contatti.php"><h3>Contatti</h3></a>
 							</li>

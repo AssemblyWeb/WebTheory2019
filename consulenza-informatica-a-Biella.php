@@ -1,8 +1,8 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+$title = 'Consulenza Informatica per aziende e privati a Biella - WebTheory.it'; 
+$excerpt="Per la tua consulenza Informatica a Biella scegli WebTheory. Sicurezza informatica, configurazione della casella di posta e molto altro. Visita il sito!";
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
-$title = 'Consulenza Informatica per aziende e privati a Biella - WebTheory.it'; 
-
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
         <div class="container">

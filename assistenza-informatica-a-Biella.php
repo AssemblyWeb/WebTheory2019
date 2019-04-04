@@ -1,7 +1,10 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
+$title="Assistenza Informatica per aziende e privati Biella - WebTheory.it";
+$excerpt="Assistenza Informatica a Biella. Assemblaggi, assistenza e riparazioni dei tuoi PC o Mac scegli WebTheory. Assistenza a domicilio. Visita il sito!";
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
+
 
 
 <div class="container">
@@ -92,10 +95,6 @@ Lo sai che spesso risolvo il problema con un disco a stato solido (SSD)? Così i
                 	</div>
                 	
                 	<div class="col-lg-12">
-	                	<div class="col-lg-2">
-							<img class="icon" src="img/computer-virus.svg">
-						</div>
-						
 						<div class="col-lg-10 col-md-12">
 							<h3>"Temo di aver preso un virus.."</h3>
 								<p>È la paura di molti di voi che vi rivolgete a me. <br>
@@ -105,24 +104,11 @@ Come?<br>
 Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br>
 </p> 
 						</div>
-                	</div>
-                	<div class="col-lg-12">
-						<div class="col-lg-10 col-md-12">
-							<h3>A casa e in ufficio internet va malissimo. Tu puoi fare qualcosa?</h3>
-								<p>Sai che il 68,5% delle persone di 6 anni e più si è connesso alla Rete negli ultimi 12 mesi (65,3% nel 2017) mentre il 52,1% accede tutti i giorni? 
-(fonte Istat: <a href="https://www.istat.it/it/archivio/226240">Link</a>)<br>
-Io posso aiutarti a rimanere in questa maggioranza.<br>
-Se anche internet via cavo a casa tua o nelle tua azienda non prende, lo sai che possiamo valutare altre soluzioni economiche via Parabola?<br>
-Con il wireless la tua connettività non avrà più confini.<br>
-Il tuo portafoglio ringrazierà.<br>
-I tuoi figli e i tuoi collaboratori andranno più veloci e si lamenteranno meno. </p>
-						</div>	
 						<div class="col-lg-2">
-							<img class="icon" src="img/wifi.svg">
-						</div>
+						<img class="icon" src="img/computer-virus.svg">
 					</div>
-                </div>
-            </div>
+                	</div>
+                	            
             <div class="row">
 	            <div class="col-lg-3">
 	            </div>

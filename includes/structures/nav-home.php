@@ -34,6 +34,9 @@
 								<li>
 									<a href="/consulenza-informatica-a-Biella.php">Consulenza</a>
 								</li>
+								<li>
+									<a href="/Allestimento-reti-internet-per-Casa-Uffici-Biella.php">Connettività</a>
+								</li>
 	  						</ul>
 	  				</li>
                     <li>
