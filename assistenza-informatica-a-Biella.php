@@ -68,7 +68,7 @@ Continua a leggere e scopri come fare per usare TeamViewer insieme."</p>
 	        	<img class="imgcenter" src="/img/TeamV.svg">
 	            	<h3 class="textcenter" style="color: white;">HAI BISOGNO DI ASSISTENZA SUL TUO COMPUTER?<br>
 SCARICA SUBITO TEAMVIEWER QUICK SUPPORT. </h3>
-						<a href="sitiweb.php"><div class="btn btn-wt imgcenter">Download</div></a>
+						<a href="https://get.teamviewer.com/netbi-qs"><div class="btn btn-wt imgcenter">Download</div></a>
             </div>
         </div>
 	</div>
@@ -114,7 +114,7 @@ Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br>
 	            </div>
 	            <div class="col-lg-6">
 		            <h3 class="textcenter">Se preferisci non pensarci tu, la soluzione "Pacchetti di ticket" fa per te!</h3>
-				<a href="/consulenza%20informatica.php"><div class="btn btn-wt imgcenter">Scopri</div></a>
+				<a href="/consulenza-informatica-a-Biella.php"><div class="btn btn-wt imgcenter">Scopri</div></a>
 
 	            </div>
 	            <div class="col-lg-3">
