@@ -17,8 +17,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="msvalidate.01" content="6A3C6DADF2A0502EA2F70AE1E60C65E2" />
     <meta name="description" content="<?php echo $excerpt; ?>">
-    <meta name="author" content="Erik Alessandro Martinez">
+    <meta name="author" content="Erik Alessandro Martinez - Web Theory">
     
    
 
