@@ -67,7 +67,9 @@ Continua a leggere e scopri come fare per usare TeamViewer insieme."</p>
         	<div class="col-lg-12 col-sm-12">
 	        	<img class="imgcenter" src="img/TeamV.svg">
 	            	<h3 class="textcenter" style="color: white;">HAI BISOGNO DI ASSISTENZA SUL TUO COMPUTER?<br>
-SCARICA SUBITO TEAMVIEWER QUICK SUPPORT. </h3>
+					COMPILA IL FORM<br>
+					
+E SCARICA SUBITO TEAMVIEWER QUICK SUPPORT. </h3>
 						<a href="https://get.teamviewer.com/netbi-qs"><div class="btn btn-wt imgcenter">Download</div></a>
             </div>
         </div>
