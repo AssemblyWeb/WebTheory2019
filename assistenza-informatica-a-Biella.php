@@ -1,8 +1,8 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 $title="Assistenza Informatica per aziende e privati Biella - WebTheory.it";
 $excerpt="Assistenza Informatica a Biella. Assemblaggi, assistenza e riparazioni dei tuoi PC o Mac scegli WebTheory. Assistenza a domicilio. Visita il sito!";
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
+include("includes/structures/header.php");
+include("includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
 
@@ -65,7 +65,7 @@ Continua a leggere e scopri come fare per usare TeamViewer insieme."</p>
 	<div class="container">
     	<div class="row rowpadding">
         	<div class="col-lg-12 col-sm-12">
-	        	<img class="imgcenter" src="/img/TeamV.svg">
+	        	<img class="imgcenter" src="img/TeamV.svg">
 	            	<h3 class="textcenter" style="color: white;">HAI BISOGNO DI ASSISTENZA SUL TUO COMPUTER?<br>
 SCARICA SUBITO TEAMVIEWER QUICK SUPPORT. </h3>
 						<a href="https://get.teamviewer.com/netbi-qs"><div class="btn btn-wt imgcenter">Download</div></a>
@@ -76,9 +76,7 @@ SCARICA SUBITO TEAMVIEWER QUICK SUPPORT. </h3>
 
 <!-- content-section-b -->
     <div class="content-section-b">
-
-        <div class="container">
-				
+        <div class="container">	
             <div class="row">
 	            <h2>Le manutenzioni che mi chiedete più spesso:</h2>
 				<div class="row rowpadding">
@@ -108,7 +106,7 @@ Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br>
 						<img class="icon" src="img/computer-virus.svg">
 					</div>
                 	</div>
-                	            
+                </div>            
             <div class="row">
 	            <div class="col-lg-3">
 	            </div>
@@ -143,6 +141,6 @@ Con un buon antivirus, un sistema di Backup o un'eventuale Nas.<br>
 <!-- /.content-section-f -->
     
   <?php /* ########################################## INCLUDE - INIZIO ################################################## */
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/calltoaction.php"); 
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/footer.php");
+include("includes/structures/calltoaction.php"); 
+include("includes/structures/footer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>

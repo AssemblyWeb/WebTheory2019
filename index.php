@@ -1,13 +1,13 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 $title="Assistenza e consulenza Informatica, siti web a Biella - WebTheory.it";
 $excerpt="Assistenza e consulenza Informatica, siti web ed ecoomerce a Biella, Cossato e provincia. WebTheroy è la soluzione ideale!";
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
+include("includes/structures/header.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
  <!-- intro-header -->
     <div class="intro-header">
 	<?php	    
-		include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav-home.php");
+		include("includes/structures/nav-home.php");
 		?>
         <div class="container">
 
@@ -140,6 +140,6 @@ Siamo affidabili e chi si rivolge a noi sa che siamo sul pezzo.
 
     
   <?php /* ########################################## INCLUDE - INIZIO ################################################## */
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/calltoaction.php");  
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/footer.php");
+include("includes/structures/calltoaction.php");  
+include("includes/structures/footer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>

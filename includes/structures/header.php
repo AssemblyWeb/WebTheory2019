@@ -27,7 +27,7 @@
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
      <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
