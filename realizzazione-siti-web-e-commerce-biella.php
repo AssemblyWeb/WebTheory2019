@@ -1,8 +1,8 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 $title="Realizzazione siti web ed e-commerce Biella - WebTheory.it";
 $excerpt="Realizzo siti web ed siti e-commerce su misura per la tua azienda. Dai slancio al tuo business con le vendite online. Scopri tutte le opportunità a disposizione.";
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
+include("includes/structures/header.php");
+include("includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
  	<div class="container">
@@ -233,6 +233,6 @@ Per questo motivo inclusa nel sito c’è una formazione iniziale per insegnarti
 
     
   <?php /* ########################################## INCLUDE - INIZIO ################################################## */
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/calltoaction.php"); 
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/footer.php");
+include("includes/structures/calltoaction.php"); 
+include("includes/structures/footer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>

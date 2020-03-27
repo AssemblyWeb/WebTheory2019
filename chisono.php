@@ -1,15 +1,15 @@
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 $title="Mi presento mi chiamo Erik Alessandro Martinez - WebTheory.it";
 $excerpt="Mi chiamo Erik Martinez, sono specializzato in assistenza e consulenza informatica e siti web. Il mio progetto si chiama Web Theory. Scopri tutto sulla mia storia!";
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
+include("includes/structures/header.php");
+include("includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
 
         <div class="container">
             <div class="row">
 	            <!--immagine foto chi sono -->
                 <div class="col-lg-6 col-sm-12">
-	                <img src="/img/Erik-Chi-siamo@2x.jpg" class="profilephoto"> <br>
+	                <img src="img/Erik-Chi-siamo@2x.jpg" class="profilephoto"> <br>
 					 <h3>Cosa faccio in breve? <br></br> Sono specializzato in assistenza e consulenza informatica e siti web.</h3>
                 </div>
                 <!-- /.immagine foto chi sono -->
@@ -31,7 +31,7 @@ Da febbraio 2015 le collaborazioni, le idee e le esperienze che ho fatto in ques
         </div>    
             <div class="row">
 	             <div class="col-lg-12 col-sm-12">
-	                <img src="/img/blocco%20foto%20netbi@2x.png" class="profilephoto"> 
+	                <img src="img/blocco%20foto%20netbi@2x.png" class="profilephoto"> 
 
                 </div>
             </div>
@@ -55,7 +55,7 @@ Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clien
 
 	            
                 <div class="col-lg-6 col-sm-12">
-	                <img class="logo-netbi" src="/img/logo%20netbi@2x.png"> 
+	                <img class="logo-netbi" src="img/logo%20netbi@2x.png"> 
 
                 </div>
                 <!-- /.immagine foto chi sono -->
@@ -82,6 +82,6 @@ Proponiamo sempre la soluzione migliore anticipando le future esigenze dei clien
         
     
   <?php /* ########################################## INCLUDE - INIZIO ################################################## */
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/calltoaction.php"); 
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/footer.php");
+include("includes/structures/calltoaction.php"); 
+include("includes/structures/footer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>

@@ -58,8 +58,8 @@ if(isset($_GET['send']) and ($_GET['send']=='1')) {
 <?php /* ########################################## INCLUDE - INIZIO ################################################## */
 $title="Scrivimi per un preventivo gratuito - WebTheory.it";
 $excerpt="Hai una domanda, hai bisogno di un preventivo su misura? Scrivimi e troveremo insieme la soluzione IT o il sito ideale per la tua azienda.";
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/header.php");
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php"); 
+include("includes/structures/header.php");
+include("includes/structures/nav.php"); 
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
  <div class="container sezionecontatti">
             <div class="row rowpadding">
@@ -191,5 +191,5 @@ include($_SERVER['DOCUMENT_ROOT']."/includes/structures/nav.php");
 
     
   <?php /* ########################################## INCLUDE - INIZIO ################################################## */
-include($_SERVER['DOCUMENT_ROOT']."/includes/structures/footer.php");
+include("includes/structures/footer.php");
 /* ################################################ INCLUDE - FINE ################################################# */ ?>
